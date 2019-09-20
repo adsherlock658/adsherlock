@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color">#1D71B5</color>
+    <color name="primary_color_dark">#1D61A1</color>
+    <color name="secondary_color">#29A8FF</color>
+    <color name="background_color">#EEEEEE</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="tv_primary_color">#FF555555</color>
+    <color name="half_transparent">#55000000</color>
+
+    <color name="list_item_pressed_color">#DDDDDD</color>
+
+    <color name="next_product_title_color">#30D0DF</color>
+    <color name="next_product_count_bg">#948CF1</color>
+
+</resources>

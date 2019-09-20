@@ -1,0 +1,54 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+    useLibrary  'org.apache.http.legacy'
+
+    defaultConfig {
+        applicationId "com.yanshi.my36kr"
+        minSdkVersion 18
+        targetSdkVersion 23
+        versionCode 111
+        versionName "1.1.1"
+
+        //不让gradle自动生成不同屏幕分辨率的png图
+        generatedDensities = []
+    }
+
+    aaptOptions {
+        additionalParameters "--no-version-vectors"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:23.2.1'
+    compile 'com.android.support:support-v4:23.2.1'
+    compile 'com.android.support:design:23.2.1'
+    compile 'com.android.support:cardview-v7:23.2.1'
+    compile 'com.mcxiaoke.volley:library:1.0.16'
+    compile 'com.github.chrisbanes.photoview:library:1.2.2'
+    compile 'se.emilsjolander:stickylistheaders:2.5.2'
+    compile 'com.github.ksoichiro:android-observablescrollview:1.5.1'
+    compile 'com.android.support:appcompat-v7:23.0.1'
+    compile 'com.google.android.gms:play-services-ads:8.1.0'
+    // for fb stetho
+    compile 'com.facebook.stetho:stetho:1.1.1'
+    compile 'com.facebook.stetho:stetho-okhttp:1.1.1'
+    compile 'com.squareup.okhttp:okhttp:2.3.0'
+
+
+//for UI automator
+    androidTestCompile 'com.android.support.test:runner:0.2'
+    androidTestCompile 'com.android.support.test:rules:0.2'
+    androidTestCompile 'com.android.support.test.uiautomator:uiautomator-v18:2.1.0'
+    androidTestCompile 'com.android.support:support-annotations:23.2.1'
+}

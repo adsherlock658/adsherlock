@@ -1,0 +1,1518 @@
+--------- beginning of /dev/log/main
+D/dalvikvm(23226): GC_FOR_ALLOC freed 220K, 29% free 9907K/13904K, paused 8ms, total 8ms
+D/dalvikvm(23226): GC_FOR_ALLOC freed 1675K, 29% free 9904K/13904K, paused 8ms, total 8ms
+--------- beginning of /dev/log/system
+D/MobileDataStateTracker(23226): default: setPolicyDataEnable(enabled=true)
+I/ActivityManager(23226): START u0 {act=com.android.systemui.recent.action.TOGGLE_RECENTS flg=0x10800000 cmp=com.android.systemui/.recent.RecentsActivity (has extras)} from pid 23289
+D/dalvikvm(23226): GC_FOR_ALLOC freed 850K, 23% free 10743K/13904K, paused 12ms, total 12ms
+W/EGL_genymotion(23289): eglSurfaceAttrib not implemented
+I/ActivityManager(23226): Displayed com.android.systemui/.recent.RecentsActivity: +102ms
+E/EGL_genymotion( 2852): egl: current context mark for deletion
+D/MobileDataStateTracker(23226): default: setPolicyDataEnable(enabled=true)
+I/InputDispatcher(23226): Dropping event because there is no touchable window at (-89, 1843).
+D/dalvikvm(23226): GC_FOR_ALLOC freed 1793K, 29% free 9916K/13904K, paused 7ms, total 7ms
+I/ActivityManager(23226): Killing 2852:com.yanshi.my36kr/u0a58 (adj 9): remove task
+D/MobileDataStateTracker(23226): default: setPolicyDataEnable(enabled=true)
+W/InputDispatcher(23226): channel '52a1e3fc com.yanshi.my36kr/com.yanshi.my36kr.activity.MainActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+E/InputDispatcher(23226): channel '52a1e3fc com.yanshi.my36kr/com.yanshi.my36kr.activity.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+W/InputDispatcher(23226): Attempted to unregister already unregistered input channel '52a1e3fc com.yanshi.my36kr/com.yanshi.my36kr.activity.MainActivity (server)'
+I/WindowState(23226): WIN DEATH: Window{52a1e3fc u0 com.yanshi.my36kr/com.yanshi.my36kr.activity.MainActivity}
+W/EGL_genymotion(23429): eglSurfaceAttrib not implemented
+D/dalvikvm(23226): GC_FOR_ALLOC freed 3384K, 41% free 8233K/13904K, paused 7ms, total 7ms
+D/MobileDataStateTracker(23226): default: setPolicyDataEnable(enabled=true)
+D/dalvikvm(23289): GC_EXPLICIT freed 3219K, 19% free 22225K/27200K, paused 1ms+1ms, total 7ms
+D/MobileDataStateTracker(23226): default: setPolicyDataEnable(enabled=true)
+D/MobileDataStateTracker(23226): default: setPolicyDataEnable(enabled=true)
+I/InputDispatcher(23226): Dropping event because there is no touchable window at (-89, 1843).
+I/ActivityManager(23226): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.yanshi.my36kr/.activity.SplashActivity} from pid 23429
+W/genymotion_audio(22906): out_write() limiting sleep time 116462 to 39909
+W/genymotion_audio(22906): out_write() limiting sleep time 86371 to 39909
+W/genymotion_audio(22906): out_write() limiting sleep time 55850 to 39909
+D/dalvikvm(23226): GC_FOR_ALLOC freed 1062K, 41% free 8258K/13904K, paused 7ms, total 7ms
+D/MobileDataStateTracker(23226): default: setPolicyDataEnable(enabled=true)
+W/genymotion_audio(22906): out_write() limiting sleep time 40634 to 39909
+D/dalvikvm( 4283): Late-enabling CheckJNI
+I/ActivityManager(23226): Start proc com.yanshi.my36kr for activity com.yanshi.my36kr/.activity.SplashActivity: pid=4283 uid=10058 gids={50058, 3003, 1028, 1015}
+E/jdwp    ( 4283): Failed writing handshake bytes: Broken pipe (-1 of 14)
+D/dalvikvm( 4283): Debugger has detached; object registry had 0 entries
+I/dalvikvm( 4283): Could not find method android.content.Context.getSystemService, referenced from method com.yanshi.my36kr.MyApplication.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 674: Landroid/content/Context;.getSystemService (Ljava/lang/Class;)Ljava/lang/Object;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0035
+I/dalvikvm( 4283): Could not find method android.content.Context.getColorStateList, referenced from method com.yanshi.my36kr.MyApplication.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 653: Landroid/content/Context;.getColorStateList (I)Landroid/content/res/ColorStateList;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x004f
+I/dalvikvm( 4283): Could not find method android.content.ContextWrapper.getCodeCacheDir, referenced from method com.yanshi.my36kr.MyApplication.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 727: Landroid/content/ContextWrapper;.getCodeCacheDir ()Ljava/io/File;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x00b7
+I/dalvikvm( 4283): Could not find method android.content.ContextWrapper.getNoBackupFilesDir, referenced from method com.yanshi.my36kr.MyApplication.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 739: Landroid/content/ContextWrapper;.getNoBackupFilesDir ()Ljava/io/File;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x01b4
+I/dalvikvm( 4283): Could not find method android.content.Context.getDrawable, referenced from method com.yanshi.my36kr.MyApplication.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 657: Landroid/content/Context;.getDrawable (I)Landroid/graphics/drawable/Drawable;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x02dd
+I/dalvikvm( 4283): Could not find method android.content.ContextWrapper.getSystemServiceName, referenced from method com.yanshi.my36kr.MyApplication.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 749: Landroid/content/ContextWrapper;.getSystemServiceName (Ljava/lang/Class;)Ljava/lang/String;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0386
+I/dalvikvm( 4283): Could not find method android.content.ContextWrapper.getExternalMediaDirs, referenced from method com.yanshi.my36kr.MyApplication.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 735: Landroid/content/ContextWrapper;.getExternalMediaDirs ()[Ljava/io/File;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x03d5
+I/dalvikvm( 4283): Could not find method android.content.Context.getColor, referenced from method com.yanshi.my36kr.MyApplication.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 652: Landroid/content/Context;.getColor (I)I
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x04e6
+I/dalvikvm( 4283): Could not find method android.content.ContextWrapper.checkSelfPermission, referenced from method com.yanshi.my36kr.MyApplication.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 703: Landroid/content/ContextWrapper;.checkSelfPermission (Ljava/lang/String;)I
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x065c
+I/stetho  ( 4283): Listening on @stetho_com.yanshi.my36kr_devtools_remote
+W/ImageLoader( 4283): memoryCache() and memoryCacheSize() calls overlap each other
+E/EGL_genymotion(23429): egl: current context mark for deletion
+I/dalvikvm( 4283): Could not find method android.content.Context.getSystemService, referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 674: Landroid/content/Context;.getSystemService (Ljava/lang/Class;)Ljava/lang/Object;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x004b
+I/dalvikvm( 4283): Could not find method android.app.Activity.stopLockTask, referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 278: Landroid/app/Activity;.stopLockTask ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x00b9
+E/dalvikvm( 4283): Could not find class 'android.os.PersistableBundle', referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 289 (Landroid/os/PersistableBundle;) in Lcom/yanshi/my36kr/activity/SplashActivity;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x00f1
+I/dalvikvm( 4283): Could not find method android.content.Context.getColorStateList, referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 653: Landroid/content/Context;.getColorStateList (I)Landroid/content/res/ColorStateList;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0101
+I/dalvikvm( 4283): Could not find method android.app.Activity.onVisibleBehindCanceled, referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 198: Landroid/app/Activity;.onVisibleBehindCanceled ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0111
+I/dalvikvm( 4283): Could not find method android.app.Activity.onWindowStartingActionMode, referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 202: Landroid/app/Activity;.onWindowStartingActionMode (Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0137
+E/dalvikvm( 4283): Could not find class 'android.os.PersistableBundle', referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 289 (Landroid/os/PersistableBundle;) in Lcom/yanshi/my36kr/activity/SplashActivity;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x019a
+E/dalvikvm( 4283): Could not find class 'android.media.session.MediaController', referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 237 (Landroid/media/session/MediaController;) in Lcom/yanshi/my36kr/activity/SplashActivity;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x01b2
+E/dalvikvm( 4283): Could not find class 'android.widget.Toolbar', referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 2453 (Landroid/widget/Toolbar;) in Lcom/yanshi/my36kr/activity/SplashActivity;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x01bc
+I/dalvikvm( 4283): Could not find method android.app.Activity.releaseInstance, referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 209: Landroid/app/Activity;.releaseInstance ()Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x02ef
+I/dalvikvm( 4283): Could not find method android.app.Activity.onActivityReenter, referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 141: Landroid/app/Activity;.onActivityReenter (ILandroid/content/Intent;)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0306
+I/dalvikvm( 4283): Could not find method android.content.ContextWrapper.getCodeCacheDir, referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 727: Landroid/content/ContextWrapper;.getCodeCacheDir ()Ljava/io/File;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0375
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/FragmentActivity;.dispatchFragmentsOnCreateView (Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; from Lcom/yanshi/my36kr/activity/SplashActivity;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.FragmentActivity.dispatchFragmentsOnCreateView, referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4660: Landroid/support/v4/app/FragmentActivity;.dispatchFragmentsOnCreateView (Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x045e
+I/dalvikvm( 4283): Could not find method android.app.Activity.getVoiceInteractor, referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 120: Landroid/app/Activity;.getVoiceInteractor ()Landroid/app/VoiceInteractor;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x04bc
+E/dalvikvm( 4283): Could not find class 'android.app.ActivityManager$TaskDescription', referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 33 (Landroid/app/ActivityManager$TaskDescription;) in Lcom/yanshi/my36kr/activity/SplashActivity;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x0587
+I/dalvikvm( 4283): Could not find method android.app.Activity.startActionMode, referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 253: Landroid/app/Activity;.startActionMode (Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x05c2
+I/dalvikvm( 4283): Could not find method android.app.Activity.showAssist, referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 248: Landroid/app/Activity;.showAssist (Landroid/os/Bundle;)Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0604
+I/dalvikvm( 4283): Could not find method android.app.Activity.postponeEnterTransition, referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 206: Landroid/app/Activity;.postponeEnterTransition ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x060f
+I/dalvikvm( 4283): Could not find method android.content.ContextWrapper.getNoBackupFilesDir, referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 739: Landroid/content/ContextWrapper;.getNoBackupFilesDir ()Ljava/io/File;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x069e
+I/dalvikvm( 4283): Could not find method android.app.Activity.requestPermissions, referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 212: Landroid/app/Activity;.requestPermissions ([Ljava/lang/String;I)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x07b3
+E/dalvikvm( 4283): Could not find class 'android.app.SharedElementCallback', referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 71 (Landroid/app/SharedElementCallback;) in Lcom/yanshi/my36kr/activity/SplashActivity;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x07cd
+E/dalvikvm( 4283): Could not find class 'android.os.PersistableBundle', referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 289 (Landroid/os/PersistableBundle;) in Lcom/yanshi/my36kr/activity/SplashActivity;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x0814
+W/dalvikvm( 4283): DexOpt: resolve class illegal access: Lcom/yanshi/my36kr/activity/SplashActivity; -> Landroid/support/v4/app/BaseFragmentActivityDonut;
+I/dalvikvm( 4283): Could not find method android.support.v4.app.BaseFragmentActivityDonut.onCreateView, referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4436: Landroid/support/v4/app/BaseFragmentActivityDonut;.onCreateView (Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0858
+I/dalvikvm( 4283): Could not find method android.app.Activity.setContentTransitionManager, referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 217: Landroid/app/Activity;.setContentTransitionManager (Landroid/transition/TransitionManager;)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x096c
+I/dalvikvm( 4283): Could not find method android.app.Activity.onProvideReferrer, referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 182: Landroid/app/Activity;.onProvideReferrer ()Landroid/net/Uri;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x09aa
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/FragmentActivity;.doReallyStop (Z)V from Lcom/yanshi/my36kr/activity/SplashActivity;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.FragmentActivity.doReallyStop, referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4662: Landroid/support/v4/app/FragmentActivity;.doReallyStop (Z)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x09d7
+I/dalvikvm( 4283): Could not find method android.content.Context.getDrawable, referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 657: Landroid/content/Context;.getDrawable (I)Landroid/graphics/drawable/Drawable;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0a21
+I/dalvikvm( 4283): Could not find method android.app.Activity.showLockTaskEscapeMessage, referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 251: Landroid/app/Activity;.showLockTaskEscapeMessage ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0a31
+I/dalvikvm( 4283): Could not find method android.app.Activity.getContentTransitionManager, referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 94: Landroid/app/Activity;.getContentTransitionManager ()Landroid/transition/TransitionManager;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0a37
+E/dalvikvm( 4283): Could not find class 'android.app.SharedElementCallback', referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 71 (Landroid/app/SharedElementCallback;) in Lcom/yanshi/my36kr/activity/SplashActivity;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x0af3
+I/dalvikvm( 4283): Could not find method android.app.Activity.getReferrer, referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 109: Landroid/app/Activity;.getReferrer ()Landroid/net/Uri;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0b67
+I/dalvikvm( 4283): Could not find method android.content.ContextWrapper.getSystemServiceName, referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 749: Landroid/content/ContextWrapper;.getSystemServiceName (Ljava/lang/Class;)Ljava/lang/String;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0be4
+I/dalvikvm( 4283): Could not find method android.app.Activity.isVoiceInteractionRoot, referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 133: Landroid/app/Activity;.isVoiceInteractionRoot ()Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0c0c
+I/dalvikvm( 4283): Could not find method android.content.ContextWrapper.getExternalMediaDirs, referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 735: Landroid/content/ContextWrapper;.getExternalMediaDirs ()[Ljava/io/File;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0c94
+I/dalvikvm( 4283): Could not find method android.app.Activity.getMediaController, referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 103: Landroid/app/Activity;.getMediaController ()Landroid/media/session/MediaController;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0cd8
+I/dalvikvm( 4283): Could not find method android.app.Activity.getSearchEvent, referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 112: Landroid/app/Activity;.getSearchEvent ()Landroid/view/SearchEvent;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0d57
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/FragmentActivity;.onReallyStop ()V from Lcom/yanshi/my36kr/activity/SplashActivity;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.FragmentActivity.onReallyStop, referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4698: Landroid/support/v4/app/FragmentActivity;.onReallyStop ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0d97
+I/dalvikvm( 4283): Could not find method android.app.Activity.isVoiceInteraction, referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 132: Landroid/app/Activity;.isVoiceInteraction ()Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0e07
+I/dalvikvm( 4283): Could not find method android.app.Activity.requestVisibleBehind, referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 213: Landroid/app/Activity;.requestVisibleBehind (Z)Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0e6c
+I/dalvikvm( 4283): Could not find method android.app.Activity.shouldShowRequestPermissionRationale, referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 246: Landroid/app/Activity;.shouldShowRequestPermissionRationale (Ljava/lang/String;)Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0e81
+I/dalvikvm( 4283): Could not find method android.app.Activity.finishAndRemoveTask, referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 83: Landroid/app/Activity;.finishAndRemoveTask ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0ebe
+I/dalvikvm( 4283): Could not find method android.content.Context.getColor, referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 652: Landroid/content/Context;.getColor (I)I
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0f15
+E/dalvikvm( 4283): Could not find class 'android.app.assist.AssistContent', referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 76 (Landroid/app/assist/AssistContent;) in Lcom/yanshi/my36kr/activity/SplashActivity;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x0f87
+I/dalvikvm( 4283): Could not find method android.app.Activity.finishAfterTransition, referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 82: Landroid/app/Activity;.finishAfterTransition ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0fab
+I/dalvikvm( 4283): Could not find method android.app.Activity.getContentScene, referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 93: Landroid/app/Activity;.getContentScene ()Landroid/transition/Scene;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0fb1
+E/dalvikvm( 4283): Could not find class 'android.view.SearchEvent', referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 2269 (Landroid/view/SearchEvent;) in Lcom/yanshi/my36kr/activity/SplashActivity;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x10fe
+W/dalvikvm( 4283): DexOpt: resolve class illegal access: Lcom/yanshi/my36kr/activity/SplashActivity; -> Landroid/support/v4/app/BaseFragmentActivityHoneycomb;
+I/dalvikvm( 4283): Could not find method android.support.v4.app.BaseFragmentActivityHoneycomb.onCreateView, referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4443: Landroid/support/v4/app/BaseFragmentActivityHoneycomb;.onCreateView (Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x1129
+I/dalvikvm( 4283): Could not find method android.app.Activity.startLockTask, referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 272: Landroid/app/Activity;.startLockTask ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x11de
+I/dalvikvm( 4283): Could not find method android.content.ContextWrapper.checkSelfPermission, referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 703: Landroid/content/ContextWrapper;.checkSelfPermission (Ljava/lang/String;)I
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x1251
+E/dalvikvm( 4283): Could not find class 'android.os.PersistableBundle', referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 289 (Landroid/os/PersistableBundle;) in Lcom/yanshi/my36kr/activity/SplashActivity;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x1355
+I/dalvikvm( 4283): Could not find method android.app.Activity.startPostponedEnterTransition, referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 276: Landroid/app/Activity;.startPostponedEnterTransition ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x1382
+I/dalvikvm( 4283): Could not find method android.app.Activity.onEnterAnimationComplete, referenced from method com.yanshi.my36kr.activity.SplashActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 163: Landroid/app/Activity;.onEnterAnimationComplete ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x1437
+D/MobileDataStateTracker(23226): default: setPolicyDataEnable(enabled=true)
+I/dalvikvm( 4283): Could not find method android.content.Context.getSystemService, referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 674: Landroid/content/Context;.getSystemService (Ljava/lang/Class;)Ljava/lang/Object;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x004b
+I/dalvikvm( 4283): Could not find method android.app.Activity.stopLockTask, referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 278: Landroid/app/Activity;.stopLockTask ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x00b9
+E/dalvikvm( 4283): Could not find class 'android.os.PersistableBundle', referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 289 (Landroid/os/PersistableBundle;) in Lcom/yanshi/my36kr/activity/base/BaseActivity;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x00f1
+I/dalvikvm( 4283): Could not find method android.content.Context.getColorStateList, referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 653: Landroid/content/Context;.getColorStateList (I)Landroid/content/res/ColorStateList;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0101
+I/dalvikvm( 4283): Could not find method android.app.Activity.onVisibleBehindCanceled, referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 198: Landroid/app/Activity;.onVisibleBehindCanceled ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0111
+I/dalvikvm( 4283): Could not find method android.app.Activity.onWindowStartingActionMode, referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 202: Landroid/app/Activity;.onWindowStartingActionMode (Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0137
+E/dalvikvm( 4283): Could not find class 'android.os.PersistableBundle', referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 289 (Landroid/os/PersistableBundle;) in Lcom/yanshi/my36kr/activity/base/BaseActivity;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x019a
+E/dalvikvm( 4283): Could not find class 'android.media.session.MediaController', referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 237 (Landroid/media/session/MediaController;) in Lcom/yanshi/my36kr/activity/base/BaseActivity;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x01b2
+E/dalvikvm( 4283): Could not find class 'android.widget.Toolbar', referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 2453 (Landroid/widget/Toolbar;) in Lcom/yanshi/my36kr/activity/base/BaseActivity;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x01bc
+I/dalvikvm( 4283): Could not find method android.app.Activity.releaseInstance, referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 209: Landroid/app/Activity;.releaseInstance ()Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x02dd
+I/dalvikvm( 4283): Could not find method android.app.Activity.onActivityReenter, referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 141: Landroid/app/Activity;.onActivityReenter (ILandroid/content/Intent;)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x02f4
+I/dalvikvm( 4283): Could not find method android.content.ContextWrapper.getCodeCacheDir, referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 727: Landroid/content/ContextWrapper;.getCodeCacheDir ()Ljava/io/File;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0349
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/FragmentActivity;.dispatchFragmentsOnCreateView (Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; from Lcom/yanshi/my36kr/activity/base/BaseActivity;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.FragmentActivity.dispatchFragmentsOnCreateView, referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4660: Landroid/support/v4/app/FragmentActivity;.dispatchFragmentsOnCreateView (Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0432
+I/dalvikvm( 4283): Could not find method android.app.Activity.getVoiceInteractor, referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 120: Landroid/app/Activity;.getVoiceInteractor ()Landroid/app/VoiceInteractor;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0490
+E/dalvikvm( 4283): Could not find class 'android.app.ActivityManager$TaskDescription', referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 33 (Landroid/app/ActivityManager$TaskDescription;) in Lcom/yanshi/my36kr/activity/base/BaseActivity;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x055b
+I/dalvikvm( 4283): Could not find method android.app.Activity.startActionMode, referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 253: Landroid/app/Activity;.startActionMode (Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0596
+I/dalvikvm( 4283): Could not find method android.app.Activity.showAssist, referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 248: Landroid/app/Activity;.showAssist (Landroid/os/Bundle;)Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x05d8
+I/dalvikvm( 4283): Could not find method android.app.Activity.postponeEnterTransition, referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 206: Landroid/app/Activity;.postponeEnterTransition ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x05e3
+I/dalvikvm( 4283): Could not find method android.content.ContextWrapper.getNoBackupFilesDir, referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 739: Landroid/content/ContextWrapper;.getNoBackupFilesDir ()Ljava/io/File;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0672
+I/dalvikvm( 4283): Could not find method android.app.Activity.requestPermissions, referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 212: Landroid/app/Activity;.requestPermissions ([Ljava/lang/String;I)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0787
+E/dalvikvm( 4283): Could not find class 'android.app.SharedElementCallback', referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 71 (Landroid/app/SharedElementCallback;) in Lcom/yanshi/my36kr/activity/base/BaseActivity;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x07a1
+E/dalvikvm( 4283): Could not find class 'android.os.PersistableBundle', referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 289 (Landroid/os/PersistableBundle;) in Lcom/yanshi/my36kr/activity/base/BaseActivity;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x07e8
+W/dalvikvm( 4283): DexOpt: resolve class illegal access: Lcom/yanshi/my36kr/activity/base/BaseActivity; -> Landroid/support/v4/app/BaseFragmentActivityDonut;
+I/dalvikvm( 4283): Could not find method android.support.v4.app.BaseFragmentActivityDonut.onCreateView, referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4436: Landroid/support/v4/app/BaseFragmentActivityDonut;.onCreateView (Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x082c
+I/dalvikvm( 4283): Could not find method android.app.Activity.setContentTransitionManager, referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 217: Landroid/app/Activity;.setContentTransitionManager (Landroid/transition/TransitionManager;)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0940
+I/dalvikvm( 4283): Could not find method android.app.Activity.onProvideReferrer, referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 182: Landroid/app/Activity;.onProvideReferrer ()Landroid/net/Uri;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x097e
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/FragmentActivity;.doReallyStop (Z)V from Lcom/yanshi/my36kr/activity/base/BaseActivity;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.FragmentActivity.doReallyStop, referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4662: Landroid/support/v4/app/FragmentActivity;.doReallyStop (Z)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x09ab
+I/dalvikvm( 4283): Could not find method android.content.Context.getDrawable, referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 657: Landroid/content/Context;.getDrawable (I)Landroid/graphics/drawable/Drawable;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x09f5
+I/dalvikvm( 4283): Could not find method android.app.Activity.showLockTaskEscapeMessage, referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 251: Landroid/app/Activity;.showLockTaskEscapeMessage ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0a05
+I/dalvikvm( 4283): Could not find method android.app.Activity.getContentTransitionManager, referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 94: Landroid/app/Activity;.getContentTransitionManager ()Landroid/transition/TransitionManager;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0a0b
+E/dalvikvm( 4283): Could not find class 'android.app.SharedElementCallback', referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 71 (Landroid/app/SharedElementCallback;) in Lcom/yanshi/my36kr/activity/base/BaseActivity;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x0ac7
+I/dalvikvm( 4283): Could not find method android.app.Activity.getReferrer, referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 109: Landroid/app/Activity;.getReferrer ()Landroid/net/Uri;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0b3b
+I/dalvikvm( 4283): Could not find method android.content.ContextWrapper.getSystemServiceName, referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 749: Landroid/content/ContextWrapper;.getSystemServiceName (Ljava/lang/Class;)Ljava/lang/String;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0bb8
+I/dalvikvm( 4283): Could not find method android.app.Activity.isVoiceInteractionRoot, referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 133: Landroid/app/Activity;.isVoiceInteractionRoot ()Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0be0
+I/dalvikvm( 4283): Could not find method android.content.ContextWrapper.getExternalMediaDirs, referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 735: Landroid/content/ContextWrapper;.getExternalMediaDirs ()[Ljava/io/File;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0c68
+I/dalvikvm( 4283): Could not find method android.app.Activity.getMediaController, referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 103: Landroid/app/Activity;.getMediaController ()Landroid/media/session/MediaController;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0cac
+I/dalvikvm( 4283): Could not find method android.app.Activity.getSearchEvent, referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 112: Landroid/app/Activity;.getSearchEvent ()Landroid/view/SearchEvent;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0d2b
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/FragmentActivity;.onReallyStop ()V from Lcom/yanshi/my36kr/activity/base/BaseActivity;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.FragmentActivity.onReallyStop, referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4698: Landroid/support/v4/app/FragmentActivity;.onReallyStop ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0d6b
+I/dalvikvm( 4283): Could not find method android.app.Activity.isVoiceInteraction, referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 132: Landroid/app/Activity;.isVoiceInteraction ()Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0ddb
+I/dalvikvm( 4283): Could not find method android.app.Activity.requestVisibleBehind, referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 213: Landroid/app/Activity;.requestVisibleBehind (Z)Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0e40
+I/dalvikvm( 4283): Could not find method android.app.Activity.shouldShowRequestPermissionRationale, referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 246: Landroid/app/Activity;.shouldShowRequestPermissionRationale (Ljava/lang/String;)Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0e55
+I/dalvikvm( 4283): Could not find method android.app.Activity.finishAndRemoveTask, referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 83: Landroid/app/Activity;.finishAndRemoveTask ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0e92
+I/dalvikvm( 4283): Could not find method android.content.Context.getColor, referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 652: Landroid/content/Context;.getColor (I)I
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0ee9
+E/dalvikvm( 4283): Could not find class 'android.app.assist.AssistContent', referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 76 (Landroid/app/assist/AssistContent;) in Lcom/yanshi/my36kr/activity/base/BaseActivity;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x0f5b
+I/dalvikvm( 4283): Could not find method android.app.Activity.finishAfterTransition, referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 82: Landroid/app/Activity;.finishAfterTransition ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0f7f
+I/dalvikvm( 4283): Could not find method android.app.Activity.getContentScene, referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 93: Landroid/app/Activity;.getContentScene ()Landroid/transition/Scene;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0f85
+E/dalvikvm( 4283): Could not find class 'android.view.SearchEvent', referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 2269 (Landroid/view/SearchEvent;) in Lcom/yanshi/my36kr/activity/base/BaseActivity;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x10d2
+W/dalvikvm( 4283): DexOpt: resolve class illegal access: Lcom/yanshi/my36kr/activity/base/BaseActivity; -> Landroid/support/v4/app/BaseFragmentActivityHoneycomb;
+I/dalvikvm( 4283): Could not find method android.support.v4.app.BaseFragmentActivityHoneycomb.onCreateView, referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4443: Landroid/support/v4/app/BaseFragmentActivityHoneycomb;.onCreateView (Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x10fd
+I/dalvikvm( 4283): Could not find method android.app.Activity.startLockTask, referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 272: Landroid/app/Activity;.startLockTask ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x11b2
+I/dalvikvm( 4283): Could not find method android.content.ContextWrapper.checkSelfPermission, referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 703: Landroid/content/ContextWrapper;.checkSelfPermission (Ljava/lang/String;)I
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x1225
+E/dalvikvm( 4283): Could not find class 'android.os.PersistableBundle', referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 289 (Landroid/os/PersistableBundle;) in Lcom/yanshi/my36kr/activity/base/BaseActivity;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x1329
+I/dalvikvm( 4283): Could not find method android.app.Activity.startPostponedEnterTransition, referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 276: Landroid/app/Activity;.startPostponedEnterTransition ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x1356
+I/dalvikvm( 4283): Could not find method android.app.Activity.onEnterAnimationComplete, referenced from method com.yanshi.my36kr.activity.base.BaseActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 163: Landroid/app/Activity;.onEnterAnimationComplete ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x140b
+W/dalvikvm( 4283): VFY: unable to find class referenced in signature (Landroid/view/SearchEvent;)
+I/dalvikvm( 4283): Could not find method android.view.Window$Callback.onSearchRequested, referenced from method android.support.v7.view.WindowCallbackWrapper.onSearchRequested
+W/dalvikvm( 4283): VFY: unable to resolve interface method 20312: Landroid/view/Window$Callback;.onSearchRequested (Landroid/view/SearchEvent;)Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x72 at 0x0002
+I/dalvikvm( 4283): Could not find method android.view.Window$Callback.onWindowStartingActionMode, referenced from method android.support.v7.view.WindowCallbackWrapper.onWindowStartingActionMode
+W/dalvikvm( 4283): VFY: unable to resolve interface method 20316: Landroid/view/Window$Callback;.onWindowStartingActionMode (Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
+D/dalvikvm( 4283): VFY: replacing opcode 0x72 at 0x0002
+D/MobileDataStateTracker(23226): default: setPolicyDataEnable(enabled=true)
+D/dalvikvm( 4283): GC_CONCURRENT freed 283K, 10% free 3257K/3616K, paused 2ms+6ms, total 12ms
+D/dalvikvm( 4283): GC_FOR_ALLOC freed 45K, 9% free 3313K/3616K, paused 2ms, total 7ms
+I/dalvikvm-heap( 4283): Grow heap (frag case) to 3.645MB for 356412-byte allocation
+D/dalvikvm( 4283): GC_FOR_ALLOC freed <1K, 8% free 3661K/3968K, paused 3ms, total 3ms
+I/dalvikvm( 4283): Could not find method android.content.res.TypedArray.getChangingConfigurations, referenced from method android.support.v7.widget.TintTypedArray.getChangingConfigurations
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 965: Landroid/content/res/TypedArray;.getChangingConfigurations ()I
+D/dalvikvm( 4283): VFY: replacing opcode 0x6e at 0x0002
+I/dalvikvm( 4283): Could not find method android.content.res.TypedArray.getType, referenced from method android.support.v7.widget.TintTypedArray.getType
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 987: Landroid/content/res/TypedArray;.getType (I)I
+D/dalvikvm( 4283): VFY: replacing opcode 0x6e at 0x0002
+D/libEGL  ( 4283): loaded /system/lib/egl/libEGL_genymotion.so
+D/        ( 4283): HostConnection::get() New Host Connection established 0xb8d72ac0, tid 4283
+D/libEGL  ( 4283): loaded /system/lib/egl/libGLESv1_CM_genymotion.so
+D/libEGL  ( 4283): loaded /system/lib/egl/libGLESv2_genymotion.so
+W/EGL_genymotion( 4283): eglSurfaceAttrib not implemented
+E/OpenGLRenderer( 4283): Getting MAX_TEXTURE_SIZE from GradienCache
+E/OpenGLRenderer( 4283): MAX_TEXTURE_SIZE: 16384
+E/OpenGLRenderer( 4283): Getting MAX_TEXTURE_SIZE from Caches::initConstraints()
+E/OpenGLRenderer( 4283): MAX_TEXTURE_SIZE: 16384
+D/OpenGLRenderer( 4283): Enabling debug mode 0
+I/ActivityManager(23226): Displayed com.yanshi.my36kr/.activity.SplashActivity: +363ms
+I/ActivityManager(23226): START u0 {cmp=com.yanshi.my36kr/.activity.MainActivity} from pid 4283
+I/dalvikvm( 4283): Could not find method android.content.Context.getSystemService, referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 674: Landroid/content/Context;.getSystemService (Ljava/lang/Class;)Ljava/lang/Object;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x004b
+I/dalvikvm( 4283): Could not find method android.app.Activity.stopLockTask, referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 278: Landroid/app/Activity;.stopLockTask ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x00b9
+E/dalvikvm( 4283): Could not find class 'android.os.PersistableBundle', referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 289 (Landroid/os/PersistableBundle;) in Lcom/yanshi/my36kr/activity/MainActivity;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x00f1
+I/dalvikvm( 4283): Could not find method android.content.Context.getColorStateList, referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 653: Landroid/content/Context;.getColorStateList (I)Landroid/content/res/ColorStateList;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0101
+I/dalvikvm( 4283): Could not find method android.app.Activity.onVisibleBehindCanceled, referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 198: Landroid/app/Activity;.onVisibleBehindCanceled ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0111
+I/dalvikvm( 4283): Could not find method android.app.Activity.onWindowStartingActionMode, referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 202: Landroid/app/Activity;.onWindowStartingActionMode (Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0137
+E/dalvikvm( 4283): Could not find class 'android.os.PersistableBundle', referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 289 (Landroid/os/PersistableBundle;) in Lcom/yanshi/my36kr/activity/MainActivity;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x019a
+E/dalvikvm( 4283): Could not find class 'android.media.session.MediaController', referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 237 (Landroid/media/session/MediaController;) in Lcom/yanshi/my36kr/activity/MainActivity;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x01b2
+E/dalvikvm( 4283): Could not find class 'android.widget.Toolbar', referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 2453 (Landroid/widget/Toolbar;) in Lcom/yanshi/my36kr/activity/MainActivity;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x01bc
+I/dalvikvm( 4283): Could not find method android.app.Activity.releaseInstance, referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 209: Landroid/app/Activity;.releaseInstance ()Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x02ef
+I/dalvikvm( 4283): Could not find method android.app.Activity.onActivityReenter, referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 141: Landroid/app/Activity;.onActivityReenter (ILandroid/content/Intent;)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0306
+I/dalvikvm( 4283): Could not find method android.content.ContextWrapper.getCodeCacheDir, referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 727: Landroid/content/ContextWrapper;.getCodeCacheDir ()Ljava/io/File;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0375
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/FragmentActivity;.dispatchFragmentsOnCreateView (Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View; from Lcom/yanshi/my36kr/activity/MainActivity;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.FragmentActivity.dispatchFragmentsOnCreateView, referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4660: Landroid/support/v4/app/FragmentActivity;.dispatchFragmentsOnCreateView (Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x045e
+I/dalvikvm( 4283): Could not find method android.app.Activity.getVoiceInteractor, referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 120: Landroid/app/Activity;.getVoiceInteractor ()Landroid/app/VoiceInteractor;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x04bc
+E/dalvikvm( 4283): Could not find class 'android.app.ActivityManager$TaskDescription', referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 33 (Landroid/app/ActivityManager$TaskDescription;) in Lcom/yanshi/my36kr/activity/MainActivity;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x0587
+I/dalvikvm( 4283): Could not find method android.app.Activity.startActionMode, referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 253: Landroid/app/Activity;.startActionMode (Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x05c2
+I/dalvikvm( 4283): Could not find method android.app.Activity.showAssist, referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 248: Landroid/app/Activity;.showAssist (Landroid/os/Bundle;)Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0604
+I/dalvikvm( 4283): Could not find method android.app.Activity.postponeEnterTransition, referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 206: Landroid/app/Activity;.postponeEnterTransition ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x060f
+I/dalvikvm( 4283): Could not find method android.content.ContextWrapper.getNoBackupFilesDir, referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 739: Landroid/content/ContextWrapper;.getNoBackupFilesDir ()Ljava/io/File;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x069e
+I/dalvikvm( 4283): Could not find method android.app.Activity.requestPermissions, referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 212: Landroid/app/Activity;.requestPermissions ([Ljava/lang/String;I)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x07b3
+E/dalvikvm( 4283): Could not find class 'android.app.SharedElementCallback', referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 71 (Landroid/app/SharedElementCallback;) in Lcom/yanshi/my36kr/activity/MainActivity;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x07cd
+E/dalvikvm( 4283): Could not find class 'android.os.PersistableBundle', referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 289 (Landroid/os/PersistableBundle;) in Lcom/yanshi/my36kr/activity/MainActivity;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x0814
+W/dalvikvm( 4283): DexOpt: resolve class illegal access: Lcom/yanshi/my36kr/activity/MainActivity; -> Landroid/support/v4/app/BaseFragmentActivityDonut;
+I/dalvikvm( 4283): Could not find method android.support.v4.app.BaseFragmentActivityDonut.onCreateView, referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4436: Landroid/support/v4/app/BaseFragmentActivityDonut;.onCreateView (Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0858
+I/dalvikvm( 4283): Could not find method android.app.Activity.setContentTransitionManager, referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 217: Landroid/app/Activity;.setContentTransitionManager (Landroid/transition/TransitionManager;)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x096c
+I/dalvikvm( 4283): Could not find method android.app.Activity.onProvideReferrer, referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 182: Landroid/app/Activity;.onProvideReferrer ()Landroid/net/Uri;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x09aa
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/FragmentActivity;.doReallyStop (Z)V from Lcom/yanshi/my36kr/activity/MainActivity;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.FragmentActivity.doReallyStop, referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4662: Landroid/support/v4/app/FragmentActivity;.doReallyStop (Z)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x09d7
+I/dalvikvm( 4283): Could not find method android.content.Context.getDrawable, referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 657: Landroid/content/Context;.getDrawable (I)Landroid/graphics/drawable/Drawable;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0a21
+I/dalvikvm( 4283): Could not find method android.app.Activity.showLockTaskEscapeMessage, referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 251: Landroid/app/Activity;.showLockTaskEscapeMessage ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0a31
+I/dalvikvm( 4283): Could not find method android.app.Activity.getContentTransitionManager, referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 94: Landroid/app/Activity;.getContentTransitionManager ()Landroid/transition/TransitionManager;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0a37
+E/dalvikvm( 4283): Could not find class 'android.app.SharedElementCallback', referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 71 (Landroid/app/SharedElementCallback;) in Lcom/yanshi/my36kr/activity/MainActivity;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x0af3
+I/dalvikvm( 4283): Could not find method android.app.Activity.getReferrer, referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 109: Landroid/app/Activity;.getReferrer ()Landroid/net/Uri;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0b67
+I/dalvikvm( 4283): Could not find method android.content.ContextWrapper.getSystemServiceName, referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 749: Landroid/content/ContextWrapper;.getSystemServiceName (Ljava/lang/Class;)Ljava/lang/String;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0be4
+I/dalvikvm( 4283): Could not find method android.app.Activity.isVoiceInteractionRoot, referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 133: Landroid/app/Activity;.isVoiceInteractionRoot ()Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0c0c
+I/dalvikvm( 4283): Could not find method android.content.ContextWrapper.getExternalMediaDirs, referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 735: Landroid/content/ContextWrapper;.getExternalMediaDirs ()[Ljava/io/File;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0c94
+I/dalvikvm( 4283): Could not find method android.app.Activity.getMediaController, referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 103: Landroid/app/Activity;.getMediaController ()Landroid/media/session/MediaController;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0cd8
+I/dalvikvm( 4283): Could not find method android.app.Activity.getSearchEvent, referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 112: Landroid/app/Activity;.getSearchEvent ()Landroid/view/SearchEvent;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0d57
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/FragmentActivity;.onReallyStop ()V from Lcom/yanshi/my36kr/activity/MainActivity;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.FragmentActivity.onReallyStop, referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4698: Landroid/support/v4/app/FragmentActivity;.onReallyStop ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0d97
+I/dalvikvm( 4283): Could not find method android.app.Activity.isVoiceInteraction, referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 132: Landroid/app/Activity;.isVoiceInteraction ()Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0e07
+I/dalvikvm( 4283): Could not find method android.app.Activity.requestVisibleBehind, referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 213: Landroid/app/Activity;.requestVisibleBehind (Z)Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0e6c
+I/dalvikvm( 4283): Could not find method android.app.Activity.shouldShowRequestPermissionRationale, referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 246: Landroid/app/Activity;.shouldShowRequestPermissionRationale (Ljava/lang/String;)Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0e81
+I/dalvikvm( 4283): Could not find method android.app.Activity.finishAndRemoveTask, referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 83: Landroid/app/Activity;.finishAndRemoveTask ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0ebe
+I/dalvikvm( 4283): Could not find method android.content.Context.getColor, referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 652: Landroid/content/Context;.getColor (I)I
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0f15
+E/dalvikvm( 4283): Could not find class 'android.app.assist.AssistContent', referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 76 (Landroid/app/assist/AssistContent;) in Lcom/yanshi/my36kr/activity/MainActivity;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x0f87
+I/dalvikvm( 4283): Could not find method android.app.Activity.finishAfterTransition, referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 82: Landroid/app/Activity;.finishAfterTransition ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0fab
+I/dalvikvm( 4283): Could not find method android.app.Activity.getContentScene, referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 93: Landroid/app/Activity;.getContentScene ()Landroid/transition/Scene;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0fb1
+E/dalvikvm( 4283): Could not find class 'android.view.SearchEvent', referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 2269 (Landroid/view/SearchEvent;) in Lcom/yanshi/my36kr/activity/MainActivity;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x10fe
+W/dalvikvm( 4283): DexOpt: resolve class illegal access: Lcom/yanshi/my36kr/activity/MainActivity; -> Landroid/support/v4/app/BaseFragmentActivityHoneycomb;
+I/dalvikvm( 4283): Could not find method android.support.v4.app.BaseFragmentActivityHoneycomb.onCreateView, referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4443: Landroid/support/v4/app/BaseFragmentActivityHoneycomb;.onCreateView (Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x1129
+I/dalvikvm( 4283): Could not find method android.app.Activity.startLockTask, referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 272: Landroid/app/Activity;.startLockTask ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x11de
+I/dalvikvm( 4283): Could not find method android.content.ContextWrapper.checkSelfPermission, referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 703: Landroid/content/ContextWrapper;.checkSelfPermission (Ljava/lang/String;)I
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x1251
+E/dalvikvm( 4283): Could not find class 'android.os.PersistableBundle', referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 289 (Landroid/os/PersistableBundle;) in Lcom/yanshi/my36kr/activity/MainActivity;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x1355
+I/dalvikvm( 4283): Could not find method android.app.Activity.startPostponedEnterTransition, referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 276: Landroid/app/Activity;.startPostponedEnterTransition ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x1382
+I/dalvikvm( 4283): Could not find method android.app.Activity.onEnterAnimationComplete, referenced from method com.yanshi.my36kr.activity.MainActivity.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 163: Landroid/app/Activity;.onEnterAnimationComplete ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x1437
+I/AppCompatViewInflater( 4283): app:theme is now deprecated. Please move to using android:theme instead.
+D/dalvikvm( 4283): GC_FOR_ALLOC freed 280K, 9% free 3895K/4248K, paused 2ms, total 2ms
+D/dalvikvm( 4283): GC_FOR_ALLOC freed 54K, 7% free 4166K/4456K, paused 1ms, total 2ms
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.performSaveInstanceState (Landroid/os/Bundle;)V from Lcom/yanshi/my36kr/fragment/IndexFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.performSaveInstanceState, referenced from method com.yanshi.my36kr.fragment.IndexFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4607: Landroid/support/v4/app/Fragment;.performSaveInstanceState (Landroid/os/Bundle;)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0050
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.restoreViewState (Landroid/os/Bundle;)V from Lcom/yanshi/my36kr/fragment/IndexFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.restoreViewState, referenced from method com.yanshi.my36kr.fragment.IndexFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4612: Landroid/support/v4/app/Fragment;.restoreViewState (Landroid/os/Bundle;)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0063
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.performCreateView (Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View; from Lcom/yanshi/my36kr/fragment/IndexFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.performCreateView, referenced from method com.yanshi.my36kr.fragment.IndexFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4597: Landroid/support/v4/app/Fragment;.performCreateView (Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x008f
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.performPrepareOptionsMenu (Landroid/view/Menu;)Z from Lcom/yanshi/my36kr/fragment/IndexFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.performPrepareOptionsMenu, referenced from method com.yanshi.my36kr.fragment.IndexFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4604: Landroid/support/v4/app/Fragment;.performPrepareOptionsMenu (Landroid/view/Menu;)Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0098
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.performStop ()V from Lcom/yanshi/my36kr/fragment/IndexFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.performStop, referenced from method com.yanshi.my36kr.fragment.IndexFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4609: Landroid/support/v4/app/Fragment;.performStop ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x00a2
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.performCreateOptionsMenu (Landroid/view/Menu;Landroid/view/MenuInflater;)Z from Lcom/yanshi/my36kr/fragment/IndexFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.performCreateOptionsMenu, referenced from method com.yanshi.my36kr.fragment.IndexFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4596: Landroid/support/v4/app/Fragment;.performCreateOptionsMenu (Landroid/view/Menu;Landroid/view/MenuInflater;)Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x00af
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.performOptionsItemSelected (Landroid/view/MenuItem;)Z from Lcom/yanshi/my36kr/fragment/IndexFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.performOptionsItemSelected, referenced from method com.yanshi.my36kr.fragment.IndexFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4601: Landroid/support/v4/app/Fragment;.performOptionsItemSelected (Landroid/view/MenuItem;)Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x014b
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.performConfigurationChanged (Landroid/content/res/Configuration;)V from Lcom/yanshi/my36kr/fragment/IndexFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.performConfigurationChanged, referenced from method com.yanshi.my36kr.fragment.IndexFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4593: Landroid/support/v4/app/Fragment;.performConfigurationChanged (Landroid/content/res/Configuration;)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x01dc
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.performResume ()V from Lcom/yanshi/my36kr/fragment/IndexFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.performResume, referenced from method com.yanshi.my36kr.fragment.IndexFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4606: Landroid/support/v4/app/Fragment;.performResume ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x021f
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.setIndex (ILandroid/support/v4/app/Fragment;)V from Lcom/yanshi/my36kr/fragment/IndexFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.setIndex, referenced from method com.yanshi.my36kr.fragment.IndexFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4621: Landroid/support/v4/app/Fragment;.setIndex (ILandroid/support/v4/app/Fragment;)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0231
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.initState ()V from Lcom/yanshi/my36kr/fragment/IndexFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.initState, referenced from method com.yanshi.my36kr.fragment.IndexFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4548: Landroid/support/v4/app/Fragment;.initState ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0249
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.findFragmentByWho (Ljava/lang/String;)Landroid/support/v4/app/Fragment; from Lcom/yanshi/my36kr/fragment/IndexFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.findFragmentByWho, referenced from method com.yanshi.my36kr.fragment.IndexFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4517: Landroid/support/v4/app/Fragment;.findFragmentByWho (Ljava/lang/String;)Landroid/support/v4/app/Fragment;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0259
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.performCreate (Landroid/os/Bundle;)V from Lcom/yanshi/my36kr/fragment/IndexFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.performCreate, referenced from method com.yanshi.my36kr.fragment.IndexFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4595: Landroid/support/v4/app/Fragment;.performCreate (Landroid/os/Bundle;)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0273
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.instantiateChildFragmentManager ()V from Lcom/yanshi/my36kr/fragment/IndexFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.instantiateChildFragmentManager, referenced from method com.yanshi.my36kr.fragment.IndexFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4551: Landroid/support/v4/app/Fragment;.instantiateChildFragmentManager ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x02c3
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.performActivityCreated (Landroid/os/Bundle;)V from Lcom/yanshi/my36kr/fragment/IndexFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.performActivityCreated, referenced from method com.yanshi.my36kr.fragment.IndexFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4592: Landroid/support/v4/app/Fragment;.performActivityCreated (Landroid/os/Bundle;)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x02e3
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.isInBackStack ()Z from Lcom/yanshi/my36kr/fragment/IndexFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.isInBackStack, referenced from method com.yanshi.my36kr.fragment.IndexFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4555: Landroid/support/v4/app/Fragment;.isInBackStack ()Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x030b
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.performPause ()V from Lcom/yanshi/my36kr/fragment/IndexFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.performPause, referenced from method com.yanshi.my36kr.fragment.IndexFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4603: Landroid/support/v4/app/Fragment;.performPause ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x031c
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.performReallyStop ()V from Lcom/yanshi/my36kr/fragment/IndexFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.performReallyStop, referenced from method com.yanshi.my36kr.fragment.IndexFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4605: Landroid/support/v4/app/Fragment;.performReallyStop ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x03cc
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.performContextItemSelected (Landroid/view/MenuItem;)Z from Lcom/yanshi/my36kr/fragment/IndexFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.performContextItemSelected, referenced from method com.yanshi.my36kr.fragment.IndexFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4594: Landroid/support/v4/app/Fragment;.performContextItemSelected (Landroid/view/MenuItem;)Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x03dc
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.performDestroyView ()V from Lcom/yanshi/my36kr/fragment/IndexFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.performDestroyView, referenced from method com.yanshi.my36kr.fragment.IndexFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4599: Landroid/support/v4/app/Fragment;.performDestroyView ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0474
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.performStart ()V from Lcom/yanshi/my36kr/fragment/IndexFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.performStart, referenced from method com.yanshi.my36kr.fragment.IndexFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4608: Landroid/support/v4/app/Fragment;.performStart ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0491
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.performDestroy ()V from Lcom/yanshi/my36kr/fragment/IndexFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.performDestroy, referenced from method com.yanshi.my36kr.fragment.IndexFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4598: Landroid/support/v4/app/Fragment;.performDestroy ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x04de
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.performLowMemory ()V from Lcom/yanshi/my36kr/fragment/IndexFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.performLowMemory, referenced from method com.yanshi.my36kr.fragment.IndexFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4600: Landroid/support/v4/app/Fragment;.performLowMemory ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x04e4
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.performOptionsMenuClosed (Landroid/view/Menu;)V from Lcom/yanshi/my36kr/fragment/IndexFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.performOptionsMenuClosed, referenced from method com.yanshi.my36kr.fragment.IndexFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4602: Landroid/support/v4/app/Fragment;.performOptionsMenuClosed (Landroid/view/Menu;)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0539
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.performSaveInstanceState (Landroid/os/Bundle;)V from Lcom/yanshi/my36kr/fragment/base/BaseFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.performSaveInstanceState, referenced from method com.yanshi.my36kr.fragment.base.BaseFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4607: Landroid/support/v4/app/Fragment;.performSaveInstanceState (Landroid/os/Bundle;)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0050
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.restoreViewState (Landroid/os/Bundle;)V from Lcom/yanshi/my36kr/fragment/base/BaseFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.restoreViewState, referenced from method com.yanshi.my36kr.fragment.base.BaseFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4612: Landroid/support/v4/app/Fragment;.restoreViewState (Landroid/os/Bundle;)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0063
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.performCreateView (Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View; from Lcom/yanshi/my36kr/fragment/base/BaseFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.performCreateView, referenced from method com.yanshi.my36kr.fragment.base.BaseFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4597: Landroid/support/v4/app/Fragment;.performCreateView (Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x008f
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.performPrepareOptionsMenu (Landroid/view/Menu;)Z from Lcom/yanshi/my36kr/fragment/base/BaseFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.performPrepareOptionsMenu, referenced from method com.yanshi.my36kr.fragment.base.BaseFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4604: Landroid/support/v4/app/Fragment;.performPrepareOptionsMenu (Landroid/view/Menu;)Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0098
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.performStop ()V from Lcom/yanshi/my36kr/fragment/base/BaseFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.performStop, referenced from method com.yanshi.my36kr.fragment.base.BaseFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4609: Landroid/support/v4/app/Fragment;.performStop ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x00a2
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.performCreateOptionsMenu (Landroid/view/Menu;Landroid/view/MenuInflater;)Z from Lcom/yanshi/my36kr/fragment/base/BaseFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.performCreateOptionsMenu, referenced from method com.yanshi.my36kr.fragment.base.BaseFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4596: Landroid/support/v4/app/Fragment;.performCreateOptionsMenu (Landroid/view/Menu;Landroid/view/MenuInflater;)Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x00af
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.performOptionsItemSelected (Landroid/view/MenuItem;)Z from Lcom/yanshi/my36kr/fragment/base/BaseFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.performOptionsItemSelected, referenced from method com.yanshi.my36kr.fragment.base.BaseFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4601: Landroid/support/v4/app/Fragment;.performOptionsItemSelected (Landroid/view/MenuItem;)Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x014b
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.performConfigurationChanged (Landroid/content/res/Configuration;)V from Lcom/yanshi/my36kr/fragment/base/BaseFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.performConfigurationChanged, referenced from method com.yanshi.my36kr.fragment.base.BaseFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4593: Landroid/support/v4/app/Fragment;.performConfigurationChanged (Landroid/content/res/Configuration;)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x01dc
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.performResume ()V from Lcom/yanshi/my36kr/fragment/base/BaseFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.performResume, referenced from method com.yanshi.my36kr.fragment.base.BaseFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4606: Landroid/support/v4/app/Fragment;.performResume ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x021f
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.setIndex (ILandroid/support/v4/app/Fragment;)V from Lcom/yanshi/my36kr/fragment/base/BaseFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.setIndex, referenced from method com.yanshi.my36kr.fragment.base.BaseFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4621: Landroid/support/v4/app/Fragment;.setIndex (ILandroid/support/v4/app/Fragment;)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0231
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.initState ()V from Lcom/yanshi/my36kr/fragment/base/BaseFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.initState, referenced from method com.yanshi.my36kr.fragment.base.BaseFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4548: Landroid/support/v4/app/Fragment;.initState ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0249
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.findFragmentByWho (Ljava/lang/String;)Landroid/support/v4/app/Fragment; from Lcom/yanshi/my36kr/fragment/base/BaseFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.findFragmentByWho, referenced from method com.yanshi.my36kr.fragment.base.BaseFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4517: Landroid/support/v4/app/Fragment;.findFragmentByWho (Ljava/lang/String;)Landroid/support/v4/app/Fragment;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0259
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.performCreate (Landroid/os/Bundle;)V from Lcom/yanshi/my36kr/fragment/base/BaseFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.performCreate, referenced from method com.yanshi.my36kr.fragment.base.BaseFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4595: Landroid/support/v4/app/Fragment;.performCreate (Landroid/os/Bundle;)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0273
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.instantiateChildFragmentManager ()V from Lcom/yanshi/my36kr/fragment/base/BaseFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.instantiateChildFragmentManager, referenced from method com.yanshi.my36kr.fragment.base.BaseFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4551: Landroid/support/v4/app/Fragment;.instantiateChildFragmentManager ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x02c3
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.performActivityCreated (Landroid/os/Bundle;)V from Lcom/yanshi/my36kr/fragment/base/BaseFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.performActivityCreated, referenced from method com.yanshi.my36kr.fragment.base.BaseFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4592: Landroid/support/v4/app/Fragment;.performActivityCreated (Landroid/os/Bundle;)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x02e3
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.isInBackStack ()Z from Lcom/yanshi/my36kr/fragment/base/BaseFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.isInBackStack, referenced from method com.yanshi.my36kr.fragment.base.BaseFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4555: Landroid/support/v4/app/Fragment;.isInBackStack ()Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x030b
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.performPause ()V from Lcom/yanshi/my36kr/fragment/base/BaseFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.performPause, referenced from method com.yanshi.my36kr.fragment.base.BaseFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4603: Landroid/support/v4/app/Fragment;.performPause ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x031c
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.performReallyStop ()V from Lcom/yanshi/my36kr/fragment/base/BaseFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.performReallyStop, referenced from method com.yanshi.my36kr.fragment.base.BaseFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4605: Landroid/support/v4/app/Fragment;.performReallyStop ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x03cc
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.performContextItemSelected (Landroid/view/MenuItem;)Z from Lcom/yanshi/my36kr/fragment/base/BaseFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.performContextItemSelected, referenced from method com.yanshi.my36kr.fragment.base.BaseFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4594: Landroid/support/v4/app/Fragment;.performContextItemSelected (Landroid/view/MenuItem;)Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x03dc
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.performDestroyView ()V from Lcom/yanshi/my36kr/fragment/base/BaseFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.performDestroyView, referenced from method com.yanshi.my36kr.fragment.base.BaseFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4599: Landroid/support/v4/app/Fragment;.performDestroyView ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0474
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.performStart ()V from Lcom/yanshi/my36kr/fragment/base/BaseFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.performStart, referenced from method com.yanshi.my36kr.fragment.base.BaseFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4608: Landroid/support/v4/app/Fragment;.performStart ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0491
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.performDestroy ()V from Lcom/yanshi/my36kr/fragment/base/BaseFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.performDestroy, referenced from method com.yanshi.my36kr.fragment.base.BaseFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4598: Landroid/support/v4/app/Fragment;.performDestroy ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x04d4
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.performLowMemory ()V from Lcom/yanshi/my36kr/fragment/base/BaseFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.performLowMemory, referenced from method com.yanshi.my36kr.fragment.base.BaseFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4600: Landroid/support/v4/app/Fragment;.performLowMemory ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x04da
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/app/Fragment;.performOptionsMenuClosed (Landroid/view/Menu;)V from Lcom/yanshi/my36kr/fragment/base/BaseFragment;)
+I/dalvikvm( 4283): Could not find method android.support.v4.app.Fragment.performOptionsMenuClosed, referenced from method com.yanshi.my36kr.fragment.base.BaseFragment.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 4602: Landroid/support/v4/app/Fragment;.performOptionsMenuClosed (Landroid/view/Menu;)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x052f
+D/dalvikvm( 4283): GC_FOR_ALLOC freed 51K, 7% free 4242K/4516K, paused 6ms, total 6ms
+I/dalvikvm-heap( 4283): Grow heap (frag case) to 4.540MB for 343408-byte allocation
+D/dalvikvm( 4283): GC_FOR_ALLOC freed <1K, 6% free 4578K/4852K, paused 2ms, total 2ms
+I/dalvikvm( 4283): Could not find method android.widget.FrameLayout.<init>, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.<init>
+W/dalvikvm( 4283): VFY: unable to resolve direct method 20890: Landroid/widget/FrameLayout;.<init> (Landroid/content/Context;Landroid/util/AttributeSet;II)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x70 at 0x007c
+I/dalvikvm( 4283): Could not find method android.view.View.drawableHotspotChanged, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19567: Landroid/view/View;.drawableHotspotChanged (FF)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0097
+E/dalvikvm( 4283): Could not find class 'android.view.ViewOutlineProvider', referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 2305 (Landroid/view/ViewOutlineProvider;) in Lcom/yanshi/my36kr/common/view/HeadlinesView;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x0102
+I/dalvikvm( 4283): Could not find method android.view.View.isNestedScrollingEnabled, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19749: Landroid/view/View;.isNestedScrollingEnabled ()Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x015b
+E/dalvikvm( 4283): Could not find class 'android.animation.StateListAnimator', referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 21 (Landroid/animation/StateListAnimator;) in Lcom/yanshi/my36kr/common/view/HeadlinesView;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x0176
+I/dalvikvm( 4283): Could not find method android.view.View.getRootWindowInsets, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19665: Landroid/view/View;.getRootWindowInsets ()Landroid/view/WindowInsets;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x017e
+I/dalvikvm( 4283): Could not find method android.view.View.getAccessibilityTraversalAfter, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19576: Landroid/view/View;.getAccessibilityTraversalAfter ()I
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x01b8
+I/dalvikvm( 4283): Could not find method android.view.View.setForeground, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19889: Landroid/view/View;.setForeground (Landroid/graphics/drawable/Drawable;)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x01d5
+I/dalvikvm( 4283): Could not find method android.view.ViewGroup.startActionModeForChild, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 20224: Landroid/view/ViewGroup;.startActionModeForChild (Landroid/view/View;Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0284
+I/dalvikvm( 4283): Could not find method android.view.View.setNestedScrollingEnabled, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19911: Landroid/view/View;.setNestedScrollingEnabled (Z)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x029d
+I/dalvikvm( 4283): Could not find method android.view.ViewGroup.isTransitionGroup, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 20134: Landroid/view/ViewGroup;.isTransitionGroup ()Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x02f0
+E/dalvikvm( 4283): Could not find class 'android.view.View$OnApplyWindowInsetsListener', referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 2281 (Landroid/view/View$OnApplyWindowInsetsListener;) in Lcom/yanshi/my36kr/common/view/HeadlinesView;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x037c
+I/dalvikvm( 4283): Could not find method android.view.View.isContextClickable, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19728: Landroid/view/View;.isContextClickable ()Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0398
+I/dalvikvm( 4283): Could not find method android.view.ViewGroup.onNestedPreFling, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 20157: Landroid/view/ViewGroup;.onNestedPreFling (Landroid/view/View;FF)Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x03de
+I/dalvikvm( 4283): Could not find method android.view.View.getClipBounds, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19590: Landroid/view/View;.getClipBounds (Landroid/graphics/Rect;)Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x03ed
+I/dalvikvm( 4283): Could not find method android.view.ViewGroup.dispatchDrawableHotspotChanged, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 20052: Landroid/view/ViewGroup;.dispatchDrawableHotspotChanged (FF)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0440
+I/dalvikvm( 4283): Could not find method android.view.View.setForegroundTintList, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19891: Landroid/view/View;.setForegroundTintList (Landroid/content/res/ColorStateList;)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x04a6
+I/dalvikvm( 4283): Could not find method android.view.View.requestUnbufferedDispatch, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19848: Landroid/view/View;.requestUnbufferedDispatch (Landroid/view/MotionEvent;)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0567
+I/dalvikvm( 4283): Could not find method android.view.ViewGroup.setTouchscreenBlocksFocus, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 20218: Landroid/view/ViewGroup;.setTouchscreenBlocksFocus (Z)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0586
+I/dalvikvm( 4283): Could not find method android.view.View.setForegroundTintMode, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19892: Landroid/view/View;.setForegroundTintMode (Landroid/graphics/PorterDuff$Mode;)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x05a6
+I/dalvikvm( 4283): Could not find method android.view.View.getTransitionName, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19692: Landroid/view/View;.getTransitionName ()Ljava/lang/String;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x05b6
+E/dalvikvm( 4283): Could not find class 'android.view.ViewStructure', referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 2309 (Landroid/view/ViewStructure;) in Lcom/yanshi/my36kr/common/view/HeadlinesView;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x0658
+I/dalvikvm( 4283): Could not find method android.view.View.getForegroundTintList, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19610: Landroid/view/View;.getForegroundTintList ()Landroid/content/res/ColorStateList;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x06ba
+I/dalvikvm( 4283): Could not find method android.view.ViewGroup.onNestedScroll, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 20160: Landroid/view/ViewGroup;.onNestedScroll (Landroid/view/View;IIII)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x75 at 0x0747
+I/dalvikvm( 4283): Could not find method android.view.View.setAccessibilityTraversalBefore, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19861: Landroid/view/View;.setAccessibilityTraversalBefore (I)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0766
+I/dalvikvm( 4283): Could not find method android.view.View.setClipToOutline, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19875: Landroid/view/View;.setClipToOutline (Z)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x07a4
+I/dalvikvm( 4283): Could not find method android.view.View.startActionMode, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19980: Landroid/view/View;.startActionMode (Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x081e
+I/dalvikvm( 4283): Could not find method android.view.View.onDrawForeground, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19782: Landroid/view/View;.onDrawForeground (Landroid/graphics/Canvas;)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0828
+E/dalvikvm( 4283): Could not find class 'android.view.View$OnContextClickListener', referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 2284 (Landroid/view/View$OnContextClickListener;) in Lcom/yanshi/my36kr/common/view/HeadlinesView;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x084c
+I/dalvikvm( 4283): Could not find method android.view.View.dispatchNestedPreScroll, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19549: Landroid/view/View;.dispatchNestedPreScroll (II[I[I)Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x08d0
+I/dalvikvm( 4283): Could not find method android.view.View.dispatchNestedPreFling, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19547: Landroid/view/View;.dispatchNestedPreFling (FF)Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x096b
+I/dalvikvm( 4283): Could not find method android.view.View.setScrollIndicators, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19950: Landroid/view/View;.setScrollIndicators (I)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x097e
+I/dalvikvm( 4283): Could not find method android.view.View.startNestedScroll, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19983: Landroid/view/View;.startNestedScroll (I)Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x09b7
+I/dalvikvm( 4283): Could not find method android.view.ViewGroup.getTouchscreenBlocksFocus, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 20119: Landroid/view/ViewGroup;.getTouchscreenBlocksFocus ()Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0a5e
+I/dalvikvm( 4283): Could not find method android.view.View.getForegroundGravity, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19609: Landroid/view/View;.getForegroundGravity ()I
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0b56
+I/dalvikvm( 4283): Could not find method android.view.View.dispatchNestedFling, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19546: Landroid/view/View;.dispatchNestedFling (FFZ)Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0b95
+E/dalvikvm( 4283): Could not find class 'android.view.WindowInsets', referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 2320 (Landroid/view/WindowInsets;) in Lcom/yanshi/my36kr/common/view/HeadlinesView;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x0c41
+I/dalvikvm( 4283): Could not find method android.view.View.hasNestedScrollingParent, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19713: Landroid/view/View;.hasNestedScrollingParent ()Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0c49
+I/dalvikvm( 4283): Could not find method android.view.View.setTransitionName, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19965: Landroid/view/View;.setTransitionName (Ljava/lang/String;)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0c6d
+I/dalvikvm( 4283): Could not find method android.view.View.setScrollIndicators, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19951: Landroid/view/View;.setScrollIndicators (II)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0cb5
+E/dalvikvm( 4283): Could not find class 'android.view.View$OnScrollChangeListener', referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 2293 (Landroid/view/View$OnScrollChangeListener;) in Lcom/yanshi/my36kr/common/view/HeadlinesView;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x0ef3
+I/dalvikvm( 4283): Could not find method android.view.View.setTranslationZ, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19968: Landroid/view/View;.setTranslationZ (F)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0f45
+I/dalvikvm( 4283): Could not find method android.view.ViewGroup.getClipToPadding, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 20098: Landroid/view/ViewGroup;.getClipToPadding ()Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0f96
+I/dalvikvm( 4283): Could not find method android.view.View.getClipToOutline, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19591: Landroid/view/View;.getClipToOutline ()Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x1051
+I/dalvikvm( 4283): Could not find method android.view.View.getStateListAnimator, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19679: Landroid/view/View;.getStateListAnimator ()Landroid/animation/StateListAnimator;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x106c
+E/dalvikvm( 4283): Could not find class 'android.view.ViewStructure', referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 2309 (Landroid/view/ViewStructure;) in Lcom/yanshi/my36kr/common/view/HeadlinesView;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x10e5
+I/dalvikvm( 4283): Could not find method android.view.ViewGroup.onNestedPreScroll, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 20159: Landroid/view/ViewGroup;.onNestedPreScroll (Landroid/view/View;II[I)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x117e
+I/dalvikvm( 4283): Could not find method android.widget.FrameLayout.getAccessibilityClassName, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 20913: Landroid/widget/FrameLayout;.getAccessibilityClassName ()Ljava/lang/CharSequence;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x12b3
+I/dalvikvm( 4283): Could not find method android.view.View.getAccessibilityTraversalBefore, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19577: Landroid/view/View;.getAccessibilityTraversalBefore ()I
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x1347
+E/dalvikvm( 4283): Could not find class 'android.view.ViewStructure', referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 2309 (Landroid/view/ViewStructure;) in Lcom/yanshi/my36kr/common/view/HeadlinesView;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x13c8
+E/dalvikvm( 4283): Could not find class 'android.view.WindowInsets', referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 2320 (Landroid/view/WindowInsets;) in Lcom/yanshi/my36kr/common/view/HeadlinesView;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x13d2
+I/dalvikvm( 4283): Could not find method android.view.View.dispatchNestedScroll, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19550: Landroid/view/View;.dispatchNestedScroll (IIII[I)Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x75 at 0x1489
+I/dalvikvm( 4283): Could not find method android.view.View.getElevation, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19603: Landroid/view/View;.getElevation ()F
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x149f
+I/dalvikvm( 4283): Could not find method android.view.View.performContextClick, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19820: Landroid/view/View;.performContextClick ()Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x14b4
+I/dalvikvm( 4283): Could not find method android.view.View.setElevation, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19882: Landroid/view/View;.setElevation (F)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x14d1
+I/dalvikvm( 4283): Could not find method android.view.View.setAccessibilityTraversalAfter, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19860: Landroid/view/View;.setAccessibilityTraversalAfter (I)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x1536
+I/dalvikvm( 4283): Could not find method android.view.View.stopNestedScroll, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19984: Landroid/view/View;.stopNestedScroll ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x1596
+I/dalvikvm( 4283): Could not find method android.view.View.setZ, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19977: Landroid/view/View;.setZ (F)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x15d6
+I/dalvikvm( 4283): Could not find method android.view.View.setBackgroundTintMode, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19870: Landroid/view/View;.setBackgroundTintMode (Landroid/graphics/PorterDuff$Mode;)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x1681
+E/dalvikvm( 4283): Could not find class 'android.view.WindowInsets', referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 2320 (Landroid/view/WindowInsets;) in Lcom/yanshi/my36kr/common/view/HeadlinesView;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x16b8
+I/dalvikvm( 4283): Could not find method android.view.View.getBackgroundTintMode, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19583: Landroid/view/View;.getBackgroundTintMode ()Landroid/graphics/PorterDuff$Mode;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x173b
+I/dalvikvm( 4283): Could not find method android.view.ViewGroup.getNestedScrollAxes, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 20109: Landroid/view/ViewGroup;.getNestedScrollAxes ()I
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x1760
+I/dalvikvm( 4283): Could not find method android.view.View.dispatchNestedPrePerformAccessibilityAction, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19548: Landroid/view/View;.dispatchNestedPrePerformAccessibilityAction (ILandroid/os/Bundle;)Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x17f0
+I/dalvikvm( 4283): Could not find method android.view.View.getScrollIndicators, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19675: Landroid/view/View;.getScrollIndicators ()I
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x1837
+I/dalvikvm( 4283): Could not find method android.view.View.getTranslationZ, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19695: Landroid/view/View;.getTranslationZ ()F
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x1863
+I/dalvikvm( 4283): Could not find method android.view.ViewGroup.setTransitionGroup, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 20219: Landroid/view/ViewGroup;.setTransitionGroup (Z)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x189b
+I/dalvikvm( 4283): Could not find method android.view.View.getBackgroundTintList, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19582: Landroid/view/View;.getBackgroundTintList ()Landroid/content/res/ColorStateList;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x18fb
+I/dalvikvm( 4283): Could not find method android.view.ViewGroup.onNestedScrollAccepted, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 20161: Landroid/view/ViewGroup;.onNestedScrollAccepted (Landroid/view/View;Landroid/view/View;I)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x195e
+I/dalvikvm( 4283): Could not find method android.view.ViewGroup.onStopNestedScroll, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 20169: Landroid/view/ViewGroup;.onStopNestedScroll (Landroid/view/View;)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x1968
+I/dalvikvm( 4283): Could not find method android.view.View.setBackgroundTintList, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19869: Landroid/view/View;.setBackgroundTintList (Landroid/content/res/ColorStateList;)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x1a08
+I/dalvikvm( 4283): Could not find method android.view.ViewGroup.onNestedPrePerformAccessibilityAction, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 20158: Landroid/view/ViewGroup;.onNestedPrePerformAccessibilityAction (Landroid/view/View;ILandroid/os/Bundle;)Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x1b71
+I/dalvikvm( 4283): Could not find method android.view.View.invalidateOutline, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19723: Landroid/view/View;.invalidateOutline ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x1be1
+I/dalvikvm( 4283): Could not find method android.view.View.getForeground, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19608: Landroid/view/View;.getForeground ()Landroid/graphics/drawable/Drawable;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x1c6e
+I/dalvikvm( 4283): Could not find method android.view.View.setContextClickable, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19877: Landroid/view/View;.setContextClickable (Z)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x1cff
+I/dalvikvm( 4283): Could not find method android.view.View.getOutlineProvider, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19647: Landroid/view/View;.getOutlineProvider ()Landroid/view/ViewOutlineProvider;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x1d0b
+I/dalvikvm( 4283): Could not find method android.view.View.requestApplyInsets, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19839: Landroid/view/View;.requestApplyInsets ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x1d27
+I/dalvikvm( 4283): Could not find method android.view.View.getZ, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19710: Landroid/view/View;.getZ ()F
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x1ebb
+I/dalvikvm( 4283): Could not find method android.view.ViewGroup.onStartNestedScroll, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 20168: Landroid/view/ViewGroup;.onStartNestedScroll (Landroid/view/View;Landroid/view/View;I)Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x2093
+I/dalvikvm( 4283): Could not find method android.view.ViewGroup.onNestedFling, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 20156: Landroid/view/ViewGroup;.onNestedFling (Landroid/view/View;FFZ)Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x20ba
+I/dalvikvm( 4283): Could not find method android.view.View.getForegroundTintMode, referenced from method com.yanshi.my36kr.common.view.HeadlinesView.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19611: Landroid/view/View;.getForegroundTintMode ()Landroid/graphics/PorterDuff$Mode;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x20ec
+I/dalvikvm( 4283): Could not find method android.view.View.drawableHotspotChanged, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19567: Landroid/view/View;.drawableHotspotChanged (FF)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x00a5
+E/dalvikvm( 4283): Could not find class 'android.view.ViewOutlineProvider', referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 2305 (Landroid/view/ViewOutlineProvider;) in Lcom/antonyt/infiniteviewpager/InfiniteViewPager;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x0111
+I/dalvikvm( 4283): Could not find method android.view.View.isNestedScrollingEnabled, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19749: Landroid/view/View;.isNestedScrollingEnabled ()Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x016a
+E/dalvikvm( 4283): Could not find class 'android.animation.StateListAnimator', referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 21 (Landroid/animation/StateListAnimator;) in Lcom/antonyt/infiniteviewpager/InfiniteViewPager;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x018f
+I/dalvikvm( 4283): Could not find method android.view.View.getRootWindowInsets, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19665: Landroid/view/View;.getRootWindowInsets ()Landroid/view/WindowInsets;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0197
+I/dalvikvm( 4283): Could not find method android.view.View.getAccessibilityTraversalAfter, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19576: Landroid/view/View;.getAccessibilityTraversalAfter ()I
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x01d1
+I/dalvikvm( 4283): Could not find method android.view.View.setForeground, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19889: Landroid/view/View;.setForeground (Landroid/graphics/drawable/Drawable;)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x01f8
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/view/ViewPager;.setCurrentItemInternal (IZZ)V from Lcom/antonyt/infiniteviewpager/InfiniteViewPager;)
+I/dalvikvm( 4283): Could not find method android.support.v4.view.ViewPager.setCurrentItemInternal, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 10166: Landroid/support/v4/view/ViewPager;.setCurrentItemInternal (IZZ)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0293
+I/dalvikvm( 4283): Could not find method android.view.ViewGroup.startActionModeForChild, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 20224: Landroid/view/ViewGroup;.startActionModeForChild (Landroid/view/View;Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x02c5
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/view/ViewPager;.distanceInfluenceForSnapDuration (F)F from Lcom/antonyt/infiniteviewpager/InfiniteViewPager;)
+I/dalvikvm( 4283): Could not find method android.support.v4.view.ViewPager.distanceInfluenceForSnapDuration, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 10078: Landroid/support/v4/view/ViewPager;.distanceInfluenceForSnapDuration (F)F
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x02de
+I/dalvikvm( 4283): Could not find method android.view.View.setNestedScrollingEnabled, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19911: Landroid/view/View;.setNestedScrollingEnabled (Z)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x02f1
+I/dalvikvm( 4283): Could not find method android.view.ViewGroup.isTransitionGroup, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 20134: Landroid/view/ViewGroup;.isTransitionGroup ()Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x036e
+E/dalvikvm( 4283): Could not find class 'android.view.View$OnApplyWindowInsetsListener', referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 2281 (Landroid/view/View$OnApplyWindowInsetsListener;) in Lcom/antonyt/infiniteviewpager/InfiniteViewPager;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x03fa
+I/dalvikvm( 4283): Could not find method android.view.View.isContextClickable, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19728: Landroid/view/View;.isContextClickable ()Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0416
+I/dalvikvm( 4283): Could not find method android.view.ViewGroup.onNestedPreFling, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 20157: Landroid/view/ViewGroup;.onNestedPreFling (Landroid/view/View;FF)Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x045c
+I/dalvikvm( 4283): Could not find method android.view.View.getClipBounds, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19590: Landroid/view/View;.getClipBounds (Landroid/graphics/Rect;)Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x046b
+W/dalvikvm( 4283): DexOpt: resolve class illegal access: Lcom/antonyt/infiniteviewpager/InfiniteViewPager; -> Landroid/support/v4/view/ViewPager$OnAdapterChangeListener;
+E/dalvikvm( 4283): Could not find class 'android.support.v4.view.ViewPager$OnAdapterChangeListener', referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 1414 (Landroid/support/v4/view/ViewPager$OnAdapterChangeListener;) in Lcom/antonyt/infiniteviewpager/InfiniteViewPager;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x047e
+I/dalvikvm( 4283): Could not find method android.view.ViewGroup.dispatchDrawableHotspotChanged, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 20052: Landroid/view/ViewGroup;.dispatchDrawableHotspotChanged (FF)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x04c8
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/view/ViewPager;.pageRight ()Z from Lcom/antonyt/infiniteviewpager/InfiniteViewPager;)
+I/dalvikvm( 4283): Could not find method android.support.v4.view.ViewPager.pageRight, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 10143: Landroid/support/v4/view/ViewPager;.pageRight ()Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x04d8
+I/dalvikvm( 4283): Could not find method android.view.View.setForegroundTintList, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19891: Landroid/view/View;.setForegroundTintList (Landroid/content/res/ColorStateList;)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0539
+I/dalvikvm( 4283): Could not find method android.view.View.requestUnbufferedDispatch, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19848: Landroid/view/View;.requestUnbufferedDispatch (Landroid/view/MotionEvent;)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x05ec
+I/dalvikvm( 4283): Could not find method android.view.ViewGroup.setTouchscreenBlocksFocus, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 20218: Landroid/view/ViewGroup;.setTouchscreenBlocksFocus (Z)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0616
+I/dalvikvm( 4283): Could not find method android.view.View.setForegroundTintMode, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19892: Landroid/view/View;.setForegroundTintMode (Landroid/graphics/PorterDuff$Mode;)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x063c
+I/dalvikvm( 4283): Could not find method android.view.View.getTransitionName, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19692: Landroid/view/View;.getTransitionName ()Ljava/lang/String;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0652
+E/dalvikvm( 4283): Could not find class 'android.view.ViewStructure', referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 2309 (Landroid/view/ViewStructure;) in Lcom/antonyt/infiniteviewpager/InfiniteViewPager;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x06f4
+I/dalvikvm( 4283): Could not find method android.view.View.getForegroundTintList, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19610: Landroid/view/View;.getForegroundTintList ()Landroid/content/res/ColorStateList;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0756
+I/dalvikvm( 4283): Could not find method android.view.ViewGroup.onNestedScroll, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 20160: Landroid/view/ViewGroup;.onNestedScroll (Landroid/view/View;IIII)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x75 at 0x07e3
+I/dalvikvm( 4283): Could not find method android.view.View.setAccessibilityTraversalBefore, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19861: Landroid/view/View;.setAccessibilityTraversalBefore (I)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0802
+I/dalvikvm( 4283): Could not find method android.view.View.setClipToOutline, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19875: Landroid/view/View;.setClipToOutline (Z)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0840
+I/dalvikvm( 4283): Could not find method android.view.View.startActionMode, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19980: Landroid/view/View;.startActionMode (Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x08ba
+I/dalvikvm( 4283): Could not find method android.view.View.onDrawForeground, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19782: Landroid/view/View;.onDrawForeground (Landroid/graphics/Canvas;)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x08c4
+E/dalvikvm( 4283): Could not find class 'android.view.View$OnContextClickListener', referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 2284 (Landroid/view/View$OnContextClickListener;) in Lcom/antonyt/infiniteviewpager/InfiniteViewPager;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x08e8
+I/dalvikvm( 4283): Could not find method android.view.View.dispatchNestedPreScroll, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19549: Landroid/view/View;.dispatchNestedPreScroll (II[I[I)Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x096c
+I/dalvikvm( 4283): Could not find method android.view.View.setForegroundGravity, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19890: Landroid/view/View;.setForegroundGravity (I)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x09c5
+I/dalvikvm( 4283): Could not find method android.view.View.dispatchNestedPreFling, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19547: Landroid/view/View;.dispatchNestedPreFling (FF)Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0a07
+I/dalvikvm( 4283): Could not find method android.view.View.setScrollIndicators, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19950: Landroid/view/View;.setScrollIndicators (I)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0a1a
+I/dalvikvm( 4283): Could not find method android.view.View.startNestedScroll, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19983: Landroid/view/View;.startNestedScroll (I)Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0a53
+I/dalvikvm( 4283): Could not find method android.view.ViewGroup.getTouchscreenBlocksFocus, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 20119: Landroid/view/ViewGroup;.getTouchscreenBlocksFocus ()Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0afa
+I/dalvikvm( 4283): Could not find method android.view.View.getForegroundGravity, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19609: Landroid/view/View;.getForegroundGravity ()I
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0c04
+I/dalvikvm( 4283): Could not find method android.view.View.dispatchNestedFling, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19546: Landroid/view/View;.dispatchNestedFling (FFZ)Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0c43
+E/dalvikvm( 4283): Could not find class 'android.view.WindowInsets', referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 2320 (Landroid/view/WindowInsets;) in Lcom/antonyt/infiniteviewpager/InfiniteViewPager;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x0cfd
+I/dalvikvm( 4283): Could not find method android.view.View.hasNestedScrollingParent, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19713: Landroid/view/View;.hasNestedScrollingParent ()Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0d05
+I/dalvikvm( 4283): Could not find method android.view.View.setTransitionName, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19965: Landroid/view/View;.setTransitionName (Ljava/lang/String;)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0d34
+I/dalvikvm( 4283): Could not find method android.view.View.setScrollIndicators, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19951: Landroid/view/View;.setScrollIndicators (II)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0d7c
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/view/ViewPager;.infoForPosition (I)Landroid/support/v4/view/ViewPager$ItemInfo; from Lcom/antonyt/infiniteviewpager/InfiniteViewPager;)
+I/dalvikvm( 4283): Could not find method android.support.v4.view.ViewPager.infoForPosition, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 10121: Landroid/support/v4/view/ViewPager;.infoForPosition (I)Landroid/support/v4/view/ViewPager$ItemInfo;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0dbe
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/view/ViewPager;.setCurrentItemInternal (IZZI)V from Lcom/antonyt/infiniteviewpager/InfiniteViewPager;)
+I/dalvikvm( 4283): Could not find method android.support.v4.view.ViewPager.setCurrentItemInternal, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 10167: Landroid/support/v4/view/ViewPager;.setCurrentItemInternal (IZZI)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0e87
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/view/ViewPager;.smoothScrollTo (II)V from Lcom/antonyt/infiniteviewpager/InfiniteViewPager;)
+I/dalvikvm( 4283): Could not find method android.support.v4.view.ViewPager.smoothScrollTo, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 10182: Landroid/support/v4/view/ViewPager;.smoothScrollTo (II)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0fa2
+E/dalvikvm( 4283): Could not find class 'android.view.View$OnScrollChangeListener', referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 2293 (Landroid/view/View$OnScrollChangeListener;) in Lcom/antonyt/infiniteviewpager/InfiniteViewPager;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x104a
+I/dalvikvm( 4283): Could not find method android.view.View.setTranslationZ, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19968: Landroid/view/View;.setTranslationZ (F)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x109c
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/view/ViewPager;.pageLeft ()Z from Lcom/antonyt/infiniteviewpager/InfiniteViewPager;)
+I/dalvikvm( 4283): Could not find method android.support.v4.view.ViewPager.pageLeft, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 10142: Landroid/support/v4/view/ViewPager;.pageLeft ()Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x10ca
+I/dalvikvm( 4283): Could not find method android.view.ViewGroup.getClipToPadding, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 20098: Landroid/view/ViewGroup;.getClipToPadding ()Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x10f8
+I/dalvikvm( 4283): Could not find method android.view.View.getClipToOutline, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19591: Landroid/view/View;.getClipToOutline ()Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x11ad
+I/dalvikvm( 4283): Could not find method android.view.View.getStateListAnimator, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19679: Landroid/view/View;.getStateListAnimator ()Landroid/animation/StateListAnimator;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x11c8
+E/dalvikvm( 4283): Could not find class 'android.view.ViewStructure', referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 2309 (Landroid/view/ViewStructure;) in Lcom/antonyt/infiniteviewpager/InfiniteViewPager;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x1241
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/view/ViewPager;.populate (I)V from Lcom/antonyt/infiniteviewpager/InfiniteViewPager;)
+I/dalvikvm( 4283): Could not find method android.support.v4.view.ViewPager.populate, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 10148: Landroid/support/v4/view/ViewPager;.populate (I)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x127d
+I/dalvikvm( 4283): Could not find method android.view.ViewGroup.onNestedPreScroll, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 20159: Landroid/view/ViewGroup;.onNestedPreScroll (Landroid/view/View;II[I)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x12dd
+I/dalvikvm( 4283): Could not find method android.view.ViewGroup.getAccessibilityClassName, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 20089: Landroid/view/ViewGroup;.getAccessibilityClassName ()Ljava/lang/CharSequence;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x145f
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/view/ViewPager;.setChildrenDrawingOrderEnabledCompat (Z)V from Lcom/antonyt/infiniteviewpager/InfiniteViewPager;)
+I/dalvikvm( 4283): Could not find method android.support.v4.view.ViewPager.setChildrenDrawingOrderEnabledCompat, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 10163: Landroid/support/v4/view/ViewPager;.setChildrenDrawingOrderEnabledCompat (Z)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x147b
+I/dalvikvm( 4283): Could not find method android.view.View.getAccessibilityTraversalBefore, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19577: Landroid/view/View;.getAccessibilityTraversalBefore ()I
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x1516
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/view/ViewPager;.infoForAnyChild (Landroid/view/View;)Landroid/support/v4/view/ViewPager$ItemInfo; from Lcom/antonyt/infiniteviewpager/InfiniteViewPager;)
+I/dalvikvm( 4283): Could not find method android.support.v4.view.ViewPager.infoForAnyChild, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 10118: Landroid/support/v4/view/ViewPager;.infoForAnyChild (Landroid/view/View;)Landroid/support/v4/view/ViewPager$ItemInfo;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x1557
+E/dalvikvm( 4283): Could not find class 'android.view.ViewStructure', referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 2309 (Landroid/view/ViewStructure;) in Lcom/antonyt/infiniteviewpager/InfiniteViewPager;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x15a1
+E/dalvikvm( 4283): Could not find class 'android.view.WindowInsets', referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 2320 (Landroid/view/WindowInsets;) in Lcom/antonyt/infiniteviewpager/InfiniteViewPager;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x15ab
+I/dalvikvm( 4283): Could not find method android.view.View.dispatchNestedScroll, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19550: Landroid/view/View;.dispatchNestedScroll (IIII[I)Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x75 at 0x1662
+I/dalvikvm( 4283): Could not find method android.view.View.getElevation, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19603: Landroid/view/View;.getElevation ()F
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x1678
+I/dalvikvm( 4283): Could not find method android.view.View.performContextClick, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19820: Landroid/view/View;.performContextClick ()Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x168d
+I/dalvikvm( 4283): Could not find method android.view.View.setElevation, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19882: Landroid/view/View;.setElevation (F)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x16aa
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/view/ViewPager;.addNewItem (II)Landroid/support/v4/view/ViewPager$ItemInfo; from Lcom/antonyt/infiniteviewpager/InfiniteViewPager;)
+I/dalvikvm( 4283): Could not find method android.support.v4.view.ViewPager.addNewItem, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 10057: Landroid/support/v4/view/ViewPager;.addNewItem (II)Landroid/support/v4/view/ViewPager$ItemInfo;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x16c0
+I/dalvikvm( 4283): Could not find method android.view.View.setAccessibilityTraversalAfter, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19860: Landroid/view/View;.setAccessibilityTraversalAfter (I)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x1725
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/view/ViewPager;.infoForChild (Landroid/view/View;)Landroid/support/v4/view/ViewPager$ItemInfo; from Lcom/antonyt/infiniteviewpager/InfiniteViewPager;)
+I/dalvikvm( 4283): Could not find method android.support.v4.view.ViewPager.infoForChild, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 10119: Landroid/support/v4/view/ViewPager;.infoForChild (Landroid/view/View;)Landroid/support/v4/view/ViewPager$ItemInfo;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x174f
+I/dalvikvm( 4283): Could not find method android.view.View.stopNestedScroll, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19984: Landroid/view/View;.stopNestedScroll ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x178f
+I/dalvikvm( 4283): Could not find method android.view.View.setZ, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19977: Landroid/view/View;.setZ (F)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x17cf
+I/dalvikvm( 4283): Could not find method android.view.View.setBackgroundTintMode, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19870: Landroid/view/View;.setBackgroundTintMode (Landroid/graphics/PorterDuff$Mode;)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x187a
+E/dalvikvm( 4283): Could not find class 'android.view.WindowInsets', referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve check-cast 2320 (Landroid/view/WindowInsets;) in Lcom/antonyt/infiniteviewpager/InfiniteViewPager;
+D/dalvikvm( 4283): VFY: replacing opcode 0x1f at 0x18b1
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/view/ViewPager;.setInternalPageChangeListener (Landroid/support/v4/view/ViewPager$OnPageChangeListener;)Landroid/support/v4/view/ViewPager$OnPageChangeListener; from Lcom/antonyt/infiniteviewpager/InfiniteViewPager;)
+I/dalvikvm( 4283): Could not find method android.support.v4.view.ViewPager.setInternalPageChangeListener, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 10170: Landroid/support/v4/view/ViewPager;.setInternalPageChangeListener (Landroid/support/v4/view/ViewPager$OnPageChangeListener;)Landroid/support/v4/view/ViewPager$OnPageChangeListener;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x18d9
+I/dalvikvm( 4283): Could not find method android.view.View.getBackgroundTintMode, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19583: Landroid/view/View;.getBackgroundTintMode ()Landroid/graphics/PorterDuff$Mode;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x193e
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/view/ViewPager;.populate ()V from Lcom/antonyt/infiniteviewpager/InfiniteViewPager;)
+I/dalvikvm( 4283): Could not find method android.support.v4.view.ViewPager.populate, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 10147: Landroid/support/v4/view/ViewPager;.populate ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x194f
+I/dalvikvm( 4283): Could not find method android.view.ViewGroup.getNestedScrollAxes, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 20109: Landroid/view/ViewGroup;.getNestedScrollAxes ()I
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x1969
+I/dalvikvm( 4283): Could not find method android.view.View.dispatchNestedPrePerformAccessibilityAction, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19548: Landroid/view/View;.dispatchNestedPrePerformAccessibilityAction (ILandroid/os/Bundle;)Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x19f9
+I/dalvikvm( 4283): Could not find method android.view.View.getScrollIndicators, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19675: Landroid/view/View;.getScrollIndicators ()I
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x1a40
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/view/ViewPager;.smoothScrollTo (III)V from Lcom/antonyt/infiniteviewpager/InfiniteViewPager;)
+I/dalvikvm( 4283): Could not find method android.support.v4.view.ViewPager.smoothScrollTo, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 10183: Landroid/support/v4/view/ViewPager;.smoothScrollTo (III)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x1a63
+I/dalvikvm( 4283): Could not find method android.view.View.getTranslationZ, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19695: Landroid/view/View;.getTranslationZ ()F
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x1a8a
+I/dalvikvm( 4283): Could not find method android.view.ViewGroup.setTransitionGroup, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 20219: Landroid/view/ViewGroup;.setTransitionGroup (Z)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x1ac2
+I/dalvikvm( 4283): Could not find method android.view.View.getBackgroundTintList, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19582: Landroid/view/View;.getBackgroundTintList ()Landroid/content/res/ColorStateList;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x1b22
+I/dalvikvm( 4283): Could not find method android.view.ViewGroup.onNestedScrollAccepted, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 20161: Landroid/view/ViewGroup;.onNestedScrollAccepted (Landroid/view/View;Landroid/view/View;I)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x1b8f
+I/dalvikvm( 4283): Could not find method android.view.ViewGroup.onStopNestedScroll, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 20169: Landroid/view/ViewGroup;.onStopNestedScroll (Landroid/view/View;)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x1b99
+I/dalvikvm( 4283): Could not find method android.view.View.setBackgroundTintList, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19869: Landroid/view/View;.setBackgroundTintList (Landroid/content/res/ColorStateList;)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x1c39
+I/dalvikvm( 4283): Could not find method android.view.ViewGroup.onNestedPrePerformAccessibilityAction, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 20158: Landroid/view/ViewGroup;.onNestedPrePerformAccessibilityAction (Landroid/view/View;ILandroid/os/Bundle;)Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x1da2
+I/dalvikvm( 4283): Could not find method android.view.View.invalidateOutline, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19723: Landroid/view/View;.invalidateOutline ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x1e12
+I/dalvikvm( 4283): Could not find method android.view.View.getForeground, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19608: Landroid/view/View;.getForeground ()Landroid/graphics/drawable/Drawable;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x1e94
+I/dalvikvm( 4283): Could not find method android.view.View.setContextClickable, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19877: Landroid/view/View;.setContextClickable (Z)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x1f25
+I/dalvikvm( 4283): Could not find method android.view.View.getOutlineProvider, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19647: Landroid/view/View;.getOutlineProvider ()Landroid/view/ViewOutlineProvider;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x1f31
+I/dalvikvm( 4283): Could not find method android.view.View.requestApplyInsets, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19839: Landroid/view/View;.requestApplyInsets ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x1f5b
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/view/ViewPager;.dataSetChanged ()V from Lcom/antonyt/infiniteviewpager/InfiniteViewPager;)
+I/dalvikvm( 4283): Could not find method android.support.v4.view.ViewPager.dataSetChanged, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 10071: Landroid/support/v4/view/ViewPager;.dataSetChanged ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x1fa2
+I/dalvikvm( 4283): Could not find method android.view.View.getZ, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19710: Landroid/view/View;.getZ ()F
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x20f5
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v4/view/ViewPager;.initViewPager ()V from Lcom/antonyt/infiniteviewpager/InfiniteViewPager;)
+I/dalvikvm( 4283): Could not find method android.support.v4.view.ViewPager.initViewPager, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 10122: Landroid/support/v4/view/ViewPager;.initViewPager ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x216d
+I/dalvikvm( 4283): Could not find method android.view.ViewGroup.onStartNestedScroll, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 20168: Landroid/view/ViewGroup;.onStartNestedScroll (Landroid/view/View;Landroid/view/View;I)Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x22d4
+I/dalvikvm( 4283): Could not find method android.view.ViewGroup.onNestedFling, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 20156: Landroid/view/ViewGroup;.onNestedFling (Landroid/view/View;FFZ)Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x22fb
+I/dalvikvm( 4283): Could not find method android.view.View.getForegroundTintMode, referenced from method com.antonyt.infiniteviewpager.InfiniteViewPager.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 19611: Landroid/view/View;.getForegroundTintMode ()Landroid/graphics/PorterDuff$Mode;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x232d
+D/dalvikvm( 4283): GC_FOR_ALLOC freed 129K, 5% free 4856K/5076K, paused 5ms, total 5ms
+I/dalvikvm-heap( 4283): Grow heap (frag case) to 7.231MB for 2536932-byte allocation
+D/dalvikvm( 4283): GC_FOR_ALLOC freed 2K, 3% free 7331K/7556K, paused 2ms, total 2ms
+W/System.err( 4283): java.lang.NullPointerException
+W/System.err( 4283): 	at org.json.JSONTokener.nextCleanInternal(JSONTokener.java:116)
+W/System.err( 4283): 	at org.json.JSONTokener.nextValue(JSONTokener.java:94)
+W/System.err( 4283): 	at org.json.JSONObject.<init>(JSONObject.java:155)
+W/System.err( 4283): 	at org.json.JSONObject.<init>(JSONObject.java:172)
+W/System.err( 4283): 	at com.yanshi.my36kr.common.utils.ACache.getAsJSONObject(ACache.java:236)
+W/System.err( 4283): 	at com.yanshi.my36kr.fragment.IndexFragment.convertToList(IndexFragment.java:177)
+W/System.err( 4283): 	at com.yanshi.my36kr.fragment.IndexFragment.loadCache(IndexFragment.java:122)
+W/System.err( 4283): 	at com.yanshi.my36kr.fragment.IndexFragment.onViewCreated(IndexFragment.java:73)
+W/System.err( 4283): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1086)
+W/System.err( 4283): 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1252)
+W/System.err( 4283): 	at android.support.v4.app.BackStackRecord.run(BackStackRecord.java:738)
+W/System.err( 4283): 	at android.support.v4.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:1617)
+W/System.err( 4283): 	at android.support.v4.app.FragmentController.execPendingActions(FragmentController.java:339)
+W/System.err( 4283): 	at android.support.v4.app.FragmentActivity.onStart(FragmentActivity.java:602)
+W/System.err( 4283): 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1171)
+W/System.err( 4283): 	at android.app.Activity.performStart(Activity.java:5241)
+W/System.err( 4283): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2157)
+W/System.err( 4283): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2233)
+W/System.err( 4283): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+W/System.err( 4283): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+W/System.err( 4283): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/System.err( 4283): 	at android.os.Looper.loop(Looper.java:136)
+W/System.err( 4283): 	at android.app.ActivityThread.main(ActivityThread.java:5001)
+W/System.err( 4283): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/System.err( 4283): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/System.err( 4283): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:785)
+W/System.err( 4283): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:601)
+W/System.err( 4283): 	at dalvik.system.NativeStart.main(Native Method)
+W/EGL_genymotion( 4283): eglSurfaceAttrib not implemented
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v7/widget/RecyclerView$ViewHolder;.isUpdated ()Z from Lcom/yanshi/my36kr/adapter/index/FeedAdapter$MyViewHolder;)
+I/dalvikvm( 4283): Could not find method android.support.v7.widget.RecyclerView$ViewHolder.isUpdated, referenced from method com.yanshi.my36kr.adapter.index.FeedAdapter$MyViewHolder.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 17568: Landroid/support/v7/widget/RecyclerView$ViewHolder;.isUpdated ()Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0031
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v7/widget/RecyclerView$ViewHolder;.flagRemovedAndOffsetPosition (IIZ)V from Lcom/yanshi/my36kr/adapter/index/FeedAdapter$MyViewHolder;)
+I/dalvikvm( 4283): Could not find method android.support.v7.widget.RecyclerView$ViewHolder.flagRemovedAndOffsetPosition, referenced from method com.yanshi.my36kr.adapter.index.FeedAdapter$MyViewHolder.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 17552: Landroid/support/v7/widget/RecyclerView$ViewHolder;.flagRemovedAndOffsetPosition (IIZ)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0053
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v7/widget/RecyclerView$ViewHolder;.isRemoved ()Z from Lcom/yanshi/my36kr/adapter/index/FeedAdapter$MyViewHolder;)
+I/dalvikvm( 4283): Could not find method android.support.v7.widget.RecyclerView$ViewHolder.isRemoved, referenced from method com.yanshi.my36kr.adapter.index.FeedAdapter$MyViewHolder.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 17565: Landroid/support/v7/widget/RecyclerView$ViewHolder;.isRemoved ()Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0058
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v7/widget/RecyclerView$ViewHolder;.clearPayload ()V from Lcom/yanshi/my36kr/adapter/index/FeedAdapter$MyViewHolder;)
+I/dalvikvm( 4283): Could not find method android.support.v7.widget.RecyclerView$ViewHolder.clearPayload, referenced from method com.yanshi.my36kr.adapter.index.FeedAdapter$MyViewHolder.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 17547: Landroid/support/v7/widget/RecyclerView$ViewHolder;.clearPayload ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x007c
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v7/widget/RecyclerView$ViewHolder;.isAdapterPositionUnknown ()Z from Lcom/yanshi/my36kr/adapter/index/FeedAdapter$MyViewHolder;)
+I/dalvikvm( 4283): Could not find method android.support.v7.widget.RecyclerView$ViewHolder.isAdapterPositionUnknown, referenced from method com.yanshi.my36kr.adapter.index.FeedAdapter$MyViewHolder.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 17561: Landroid/support/v7/widget/RecyclerView$ViewHolder;.isAdapterPositionUnknown ()Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0086
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v7/widget/RecyclerView$ViewHolder;.offsetPosition (IZ)V from Lcom/yanshi/my36kr/adapter/index/FeedAdapter$MyViewHolder;)
+I/dalvikvm( 4283): Could not find method android.support.v7.widget.RecyclerView$ViewHolder.offsetPosition, referenced from method com.yanshi.my36kr.adapter.index.FeedAdapter$MyViewHolder.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 17570: Landroid/support/v7/widget/RecyclerView$ViewHolder;.offsetPosition (IZ)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x00ad
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v7/widget/RecyclerView$ViewHolder;.shouldIgnore ()Z from Lcom/yanshi/my36kr/adapter/index/FeedAdapter$MyViewHolder;)
+I/dalvikvm( 4283): Could not find method android.support.v7.widget.RecyclerView$ViewHolder.shouldIgnore, referenced from method com.yanshi.my36kr.adapter.index.FeedAdapter$MyViewHolder.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 17579: Landroid/support/v7/widget/RecyclerView$ViewHolder;.shouldIgnore ()Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x00b9
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v7/widget/RecyclerView$ViewHolder;.setFlags (II)V from Lcom/yanshi/my36kr/adapter/index/FeedAdapter$MyViewHolder;)
+I/dalvikvm( 4283): Could not find method android.support.v7.widget.RecyclerView$ViewHolder.setFlags, referenced from method com.yanshi.my36kr.adapter.index.FeedAdapter$MyViewHolder.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 17575: Landroid/support/v7/widget/RecyclerView$ViewHolder;.setFlags (II)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x00d4
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v7/widget/RecyclerView$ViewHolder;.addChangePayload (Ljava/lang/Object;)V from Lcom/yanshi/my36kr/adapter/index/FeedAdapter$MyViewHolder;)
+I/dalvikvm( 4283): Could not find method android.support.v7.widget.RecyclerView$ViewHolder.addChangePayload, referenced from method com.yanshi.my36kr.adapter.index.FeedAdapter$MyViewHolder.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 17544: Landroid/support/v7/widget/RecyclerView$ViewHolder;.addChangePayload (Ljava/lang/Object;)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x00dc
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v7/widget/RecyclerView$ViewHolder;.isBound ()Z from Lcom/yanshi/my36kr/adapter/index/FeedAdapter$MyViewHolder;)
+I/dalvikvm( 4283): Could not find method android.support.v7.widget.RecyclerView$ViewHolder.isBound, referenced from method com.yanshi.my36kr.adapter.index.FeedAdapter$MyViewHolder.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 17562: Landroid/support/v7/widget/RecyclerView$ViewHolder;.isBound ()Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x00f0
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v7/widget/RecyclerView$ViewHolder;.hasAnyOfTheFlags (I)Z from Lcom/yanshi/my36kr/adapter/index/FeedAdapter$MyViewHolder;)
+I/dalvikvm( 4283): Could not find method android.support.v7.widget.RecyclerView$ViewHolder.hasAnyOfTheFlags, referenced from method com.yanshi.my36kr.adapter.index.FeedAdapter$MyViewHolder.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 17560: Landroid/support/v7/widget/RecyclerView$ViewHolder;.hasAnyOfTheFlags (I)Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x011a
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v7/widget/RecyclerView$ViewHolder;.clearTmpDetachFlag ()V from Lcom/yanshi/my36kr/adapter/index/FeedAdapter$MyViewHolder;)
+I/dalvikvm( 4283): Could not find method android.support.v7.widget.RecyclerView$ViewHolder.clearTmpDetachFlag, referenced from method com.yanshi.my36kr.adapter.index.FeedAdapter$MyViewHolder.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 17549: Landroid/support/v7/widget/RecyclerView$ViewHolder;.clearTmpDetachFlag ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0125
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v7/widget/RecyclerView$ViewHolder;.needsUpdate ()Z from Lcom/yanshi/my36kr/adapter/index/FeedAdapter$MyViewHolder;)
+I/dalvikvm( 4283): Could not find method android.support.v7.widget.RecyclerView$ViewHolder.needsUpdate, referenced from method com.yanshi.my36kr.adapter.index.FeedAdapter$MyViewHolder.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 17569: Landroid/support/v7/widget/RecyclerView$ViewHolder;.needsUpdate ()Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x012b
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v7/widget/RecyclerView$ViewHolder;.clearOldPosition ()V from Lcom/yanshi/my36kr/adapter/index/FeedAdapter$MyViewHolder;)
+I/dalvikvm( 4283): Could not find method android.support.v7.widget.RecyclerView$ViewHolder.clearOldPosition, referenced from method com.yanshi.my36kr.adapter.index.FeedAdapter$MyViewHolder.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 17546: Landroid/support/v7/widget/RecyclerView$ViewHolder;.clearOldPosition ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0136
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v7/widget/RecyclerView$ViewHolder;.clearReturnedFromScrapFlag ()V from Lcom/yanshi/my36kr/adapter/index/FeedAdapter$MyViewHolder;)
+I/dalvikvm( 4283): Could not find method android.support.v7.widget.RecyclerView$ViewHolder.clearReturnedFromScrapFlag, referenced from method com.yanshi.my36kr.adapter.index.FeedAdapter$MyViewHolder.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 17548: Landroid/support/v7/widget/RecyclerView$ViewHolder;.clearReturnedFromScrapFlag ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x013c
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v7/widget/RecyclerView$ViewHolder;.saveOldPosition ()V from Lcom/yanshi/my36kr/adapter/index/FeedAdapter$MyViewHolder;)
+I/dalvikvm( 4283): Could not find method android.support.v7.widget.RecyclerView$ViewHolder.saveOldPosition, referenced from method com.yanshi.my36kr.adapter.index.FeedAdapter$MyViewHolder.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 17574: Landroid/support/v7/widget/RecyclerView$ViewHolder;.saveOldPosition ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0142
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v7/widget/RecyclerView$ViewHolder;.isScrap ()Z from Lcom/yanshi/my36kr/adapter/index/FeedAdapter$MyViewHolder;)
+I/dalvikvm( 4283): Could not find method android.support.v7.widget.RecyclerView$ViewHolder.isScrap, referenced from method com.yanshi.my36kr.adapter.index.FeedAdapter$MyViewHolder.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 17566: Landroid/support/v7/widget/RecyclerView$ViewHolder;.isScrap ()Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0148
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v7/widget/RecyclerView$ViewHolder;.addFlags (I)V from Lcom/yanshi/my36kr/adapter/index/FeedAdapter$MyViewHolder;)
+I/dalvikvm( 4283): Could not find method android.support.v7.widget.RecyclerView$ViewHolder.addFlags, referenced from method com.yanshi.my36kr.adapter.index.FeedAdapter$MyViewHolder.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 17545: Landroid/support/v7/widget/RecyclerView$ViewHolder;.addFlags (I)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x015b
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v7/widget/RecyclerView$ViewHolder;.wasReturnedFromScrap ()Z from Lcom/yanshi/my36kr/adapter/index/FeedAdapter$MyViewHolder;)
+I/dalvikvm( 4283): Could not find method android.support.v7.widget.RecyclerView$ViewHolder.wasReturnedFromScrap, referenced from method com.yanshi.my36kr.adapter.index.FeedAdapter$MyViewHolder.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 17583: Landroid/support/v7/widget/RecyclerView$ViewHolder;.wasReturnedFromScrap ()Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0177
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v7/widget/RecyclerView$ViewHolder;.getUnmodifiedPayloads ()Ljava/util/List; from Lcom/yanshi/my36kr/adapter/index/FeedAdapter$MyViewHolder;)
+I/dalvikvm( 4283): Could not find method android.support.v7.widget.RecyclerView$ViewHolder.getUnmodifiedPayloads, referenced from method com.yanshi.my36kr.adapter.index.FeedAdapter$MyViewHolder.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 17559: Landroid/support/v7/widget/RecyclerView$ViewHolder;.getUnmodifiedPayloads ()Ljava/util/List;
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0182
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v7/widget/RecyclerView$ViewHolder;.stopIgnoring ()V from Lcom/yanshi/my36kr/adapter/index/FeedAdapter$MyViewHolder;)
+I/dalvikvm( 4283): Could not find method android.support.v7.widget.RecyclerView$ViewHolder.stopIgnoring, referenced from method com.yanshi.my36kr.adapter.index.FeedAdapter$MyViewHolder.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 17580: Landroid/support/v7/widget/RecyclerView$ViewHolder;.stopIgnoring ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x01b4
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v7/widget/RecyclerView$ViewHolder;.isTmpDetached ()Z from Lcom/yanshi/my36kr/adapter/index/FeedAdapter$MyViewHolder;)
+I/dalvikvm( 4283): Could not find method android.support.v7.widget.RecyclerView$ViewHolder.isTmpDetached, referenced from method com.yanshi.my36kr.adapter.index.FeedAdapter$MyViewHolder.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 17567: Landroid/support/v7/widget/RecyclerView$ViewHolder;.isTmpDetached ()Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x01c7
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v7/widget/RecyclerView$ViewHolder;.isInvalid ()Z from Lcom/yanshi/my36kr/adapter/index/FeedAdapter$MyViewHolder;)
+I/dalvikvm( 4283): Could not find method android.support.v7.widget.RecyclerView$ViewHolder.isInvalid, referenced from method com.yanshi.my36kr.adapter.index.FeedAdapter$MyViewHolder.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 17563: Landroid/support/v7/widget/RecyclerView$ViewHolder;.isInvalid ()Z
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x01d2
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v7/widget/RecyclerView$ViewHolder;.setScrapContainer (Landroid/support/v7/widget/RecyclerView$Recycler;Z)V from Lcom/yanshi/my36kr/adapter/index/FeedAdapter$MyViewHolder;)
+I/dalvikvm( 4283): Could not find method android.support.v7.widget.RecyclerView$ViewHolder.setScrapContainer, referenced from method com.yanshi.my36kr.adapter.index.FeedAdapter$MyViewHolder.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 17577: Landroid/support/v7/widget/RecyclerView$ViewHolder;.setScrapContainer (Landroid/support/v7/widget/RecyclerView$Recycler;Z)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x01ef
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v7/widget/RecyclerView$ViewHolder;.resetInternal ()V from Lcom/yanshi/my36kr/adapter/index/FeedAdapter$MyViewHolder;)
+I/dalvikvm( 4283): Could not find method android.support.v7.widget.RecyclerView$ViewHolder.resetInternal, referenced from method com.yanshi.my36kr.adapter.index.FeedAdapter$MyViewHolder.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 17573: Landroid/support/v7/widget/RecyclerView$ViewHolder;.resetInternal ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x01f5
+I/dalvikvm( 4283): DexOpt: illegal method access (call Landroid/support/v7/widget/RecyclerView$ViewHolder;.unScrap ()V from Lcom/yanshi/my36kr/adapter/index/FeedAdapter$MyViewHolder;)
+I/dalvikvm( 4283): Could not find method android.support.v7.widget.RecyclerView$ViewHolder.unScrap, referenced from method com.yanshi.my36kr.adapter.index.FeedAdapter$MyViewHolder.access$super
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 17582: Landroid/support/v7/widget/RecyclerView$ViewHolder;.unScrap ()V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x01fb
+I/dalvikvm( 4283): Could not find method android.support.v7.widget.LinearLayoutCompat.drawableHotspotChanged, referenced from method android.support.design.internal.ForegroundLinearLayout.drawableHotspotChanged
+W/dalvikvm( 4283): VFY: unable to resolve virtual method 16499: Landroid/support/v7/widget/LinearLayoutCompat;.drawableHotspotChanged (FF)V
+D/dalvikvm( 4283): VFY: replacing opcode 0x6f at 0x0000
+I/ActivityManager(23226): Displayed com.yanshi.my36kr/.activity.MainActivity: +171ms
+D/MobileDataStateTracker(23226): default: setPolicyDataEnable(enabled=true)
+W/dalvikvm( 4283): VFY: unable to find class referenced in signature (Ljava/nio/file/Path;)
+W/dalvikvm( 4283): VFY: unable to find class referenced in signature ([Ljava/nio/file/OpenOption;)
+I/dalvikvm( 4283): Could not find method java.nio.file.Files.newOutputStream, referenced from method okio.Okio.sink
+W/dalvikvm( 4283): VFY: unable to resolve static method 41640: Ljava/nio/file/Files;.newOutputStream (Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)Ljava/io/OutputStream;
+D/dalvikvm( 4283): VFY: replacing opcode 0x71 at 0x000b
+W/dalvikvm( 4283): VFY: unable to find class referenced in signature (Ljava/nio/file/Path;)
+W/dalvikvm( 4283): VFY: unable to find class referenced in signature ([Ljava/nio/file/OpenOption;)
+I/dalvikvm( 4283): Could not find method java.nio.file.Files.newInputStream, referenced from method okio.Okio.source
+W/dalvikvm( 4283): VFY: unable to resolve static method 41639: Ljava/nio/file/Files;.newInputStream (Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)Ljava/io/InputStream;
+D/dalvikvm( 4283): VFY: replacing opcode 0x71 at 0x000b
+D/LoggingInterceptor( 4283): Request time: 104552200227700
+D/LoggingInterceptor( 4283): Sending request url: http://36kr.com
+D/LoggingInterceptor( 4283): Sending request connection: Connection{36kr.com:80, proxy=DIRECT@ hostAddress=180.97.161.6 cipherSuite=none protocol=http/1.1}
+D/LoggingInterceptor( 4283): Sending request headers: Host: 36kr.com
+D/LoggingInterceptor( 4283): Connection: Keep-Alive
+D/LoggingInterceptor( 4283): Accept-Encoding: gzip
+D/LoggingInterceptor( 4283): User-Agent: okhttp/2.3.0
+D/LoggingInterceptor( 4283): Response time: 104552388065201
+D/LoggingInterceptor( 4283): Received response url: http://36kr.com
+D/LoggingInterceptor( 4283): Received response delay: 187837501
+D/LoggingInterceptor( 4283): Received response headers: Date: Mon, 20 Jun 2016 13:18:46 GMT
+D/LoggingInterceptor( 4283): Content-Type: text/html; charset=utf-8
+D/LoggingInterceptor( 4283): Transfer-Encoding: chunked
+D/LoggingInterceptor( 4283): Connection: keep-alive
+D/LoggingInterceptor( 4283): Set-Cookie: aliyungf_tc=AQAAAIOHSEWmxg0Aax1s2gjbPuycetYa; Path=/; HttpOnly
+D/LoggingInterceptor( 4283): Vary: Accept-Encoding
+D/LoggingInterceptor( 4283): Status: 200 OK
+D/LoggingInterceptor( 4283): Cache-Control: max-age=0, private, must-revalidate
+D/LoggingInterceptor( 4283): Vary: Origin
+D/LoggingInterceptor( 4283): X-XSS-Protection: 1; mode=block
+D/LoggingInterceptor( 4283): X-Request-Id: ea6d4f5b-9796-462e-9536-5227ce2fa449
+D/LoggingInterceptor( 4283): X-Runtime: 0.128493
+D/LoggingInterceptor( 4283): X-Content-Type-Options: nosniff
+D/LoggingInterceptor( 4283): Set-Cookie: _krypton_session=alRzcEE3ejFDUi9nNUpYak9GNUFIOGNzUG1PTHJ2YnVHdVJKMGxHS2FNeUhWRjF4MElhZngrQU02M2NXK0h5TDFaeG1KQWlLZk90N3FmZ0YzaUdhUlVIQzAraGtTaU5SN3UwOUZmdld5SEpFK2xIWmZHTFdndWJYS3JWSXhkdTh0ZFFIenp4M2E0TFRQSW90ZjdXT1dnPT0tLTRiZHVBQ0NnQTRhZWlrb2RvdTBiNWc9PQ%3D%3D--462c587c9e471c57a17fd3ddbcf6d1a9b5275d85; domain=.36kr.com; path=/; expires=Mon, 04 Jul 2016 13:18:46 -0000; HttpOnly
+D/LoggingInterceptor( 4283): X-Powered-By: Phusion Passenger
+D/LoggingInterceptor( 4283): Content-Encoding: gzip
+D/LoggingInterceptor( 4283): OkHttp-Selected-Protocol: http/1.1
+D/LoggingInterceptor( 4283): OkHttp-Sent-Millis: 1466428725774
+D/LoggingInterceptor( 4283): OkHttp-Received-Millis: 1466428725961
+D/dalvikvm( 4283): GC_FOR_ALLOC freed 581K, 8% free 8007K/8672K, paused 3ms, total 3ms
+D/dalvikvm( 4283): GC_FOR_ALLOC freed 1323K, 15% free 8312K/9708K, paused 4ms, total 4ms
+D/dalvikvm( 4283): GC_FOR_ALLOC freed 1246K, 14% free 8786K/10116K, paused 4ms, total 4ms
+D/MobileDataStateTracker(23226): default: setPolicyDataEnable(enabled=true)
+D/MobileDataStateTracker(23226): default: setPolicyDataEnable(enabled=true)
+D/MobileDataStateTracker(23226): default: setPolicyDataEnable(enabled=true)
